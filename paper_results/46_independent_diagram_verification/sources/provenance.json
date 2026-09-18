@@ -1,0 +1,8 @@
+{
+  "knots_sha256": "5c9016d52746a866ba5c0e5eb0016c58b91dbe83b1b80b7247b5d743a2177526",
+  "knots_url": "https://www.rolandvdv.nl/Theta/knots.sage",
+  "sage": "/content/stage46_sage_env/bin/sage",
+  "sage_version": "10.9",
+  "theta_sha256": "a94dbd84db8fe7774801c5b809c0ee81fe71bd6adccfdb6879da9742d1fb131b",
+  "theta_url": "https://www.rolandvdv.nl/Theta/Theta.sage"
+}

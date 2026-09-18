@@ -1,0 +1,13 @@
+{
+  "dependency_directory": "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/46_independent_diagram_verification/_deps/cpython-313",
+  "errors": {},
+  "executable": "/usr/bin/python3",
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "versions": {
+    "khoca": "1.5",
+    "py": "1.11.0",
+    "regina": "7.4.1",
+    "snappy_15_knots": "1.2.1",
+    "spherogram": "2.4.1"
+  }
+}
