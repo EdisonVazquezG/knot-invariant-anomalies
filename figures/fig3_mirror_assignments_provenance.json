@@ -1,0 +1,16 @@
+{
+  "figure": "3",
+  "source": "output/release_review_v2/consensus_hardness_refactored/paper_results/31B_corrected_four_view_mirror_withheld_khovanov/four_view_mirror_withheld_khovanov_summary.csv",
+  "source_sha256": "86d82f0173fe7100f5b2e845ab700a11f8b20116beb4846af8205877b6a8f31c",
+  "script_sha256": "11c924778c79ec39cb2b8d094eceabe47a2e6f63245e84c48c07b6882295d706",
+  "outputs": [
+    {
+      "file": "fig3_mirror_assignments.pdf",
+      "sha256": "030f0f261a23c79037875576dc24939cff57c3ab974d011a2f13c1e1cc1585af"
+    },
+    {
+      "file": "fig3_mirror_assignments.png",
+      "sha256": "018b91c3b364fd5d3fdd36ceb2d263e2873488aba353c33f1bfff341ecf8c782"
+    }
+  ]
+}

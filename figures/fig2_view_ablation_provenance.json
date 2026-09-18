@@ -1,0 +1,16 @@
+{
+  "figure": "2",
+  "source": "output/release_review_v2/consensus_hardness_refactored/paper_results/33_view_ablation_and_fibers/heldout_view_ablation_n31_summary.csv",
+  "source_sha256": "b9ca955878f7a5bb6adff0de65fddfe6074a7cacba67c104081d7d3626cafa4f",
+  "script_sha256": "11c924778c79ec39cb2b8d094eceabe47a2e6f63245e84c48c07b6882295d706",
+  "outputs": [
+    {
+      "file": "fig2_view_ablation.pdf",
+      "sha256": "f7a2e68fda9c94965a5b0626d3b155dee62c43b54cebd770334d7b2d1e29f2f4"
+    },
+    {
+      "file": "fig2_view_ablation.png",
+      "sha256": "e3eb950cf037985ab3dea0f60211991dc86609cd9fa240c8303b79103bb9edc3"
+    }
+  ]
+}

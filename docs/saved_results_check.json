@@ -1,0 +1,102 @@
+{
+  "status": "SAVED_RESULTS_CHECKS_PASS",
+  "fresh_full_execution_verified": false,
+  "models_refitted": false,
+  "checks": [
+    {
+      "check": "fixed_cardinality_jaccard_from_ids",
+      "passed": true,
+      "detail": {
+        "comparisons": 50
+      }
+    },
+    {
+      "check": "mirror_memberships_from_ids",
+      "passed": true,
+      "detail": {
+        "assignments": 7,
+        "canonical_n": 220
+      }
+    },
+    {
+      "check": "width_threshold_counts_from_lists",
+      "passed": true,
+      "detail": [
+        {
+          "selection": "canonical_noKh_n220",
+          "selected_n": 220,
+          "n_WKh_ge_4": 48
+        },
+        {
+          "selection": "heldout_conditional_n31",
+          "selected_n": 31,
+          "n_WKh_ge_4": 9
+        },
+        {
+          "selection": "heldout_relative_n31",
+          "selected_n": 31,
+          "n_WKh_ge_4": 5
+        }
+      ]
+    },
+    {
+      "check": "partition_sizes_and_joint_group_separation",
+      "passed": true,
+      "detail": {
+        "atlas_n": 313230,
+        "spanning_grouped_partitions": 0,
+        "common_test_n": 6982,
+        "scope": "stored exact-input group labels; source coefficient equality not recomputed"
+      }
+    },
+    {
+      "check": "six_selections_reranked_from_saved_per_view_scores",
+      "passed": true,
+      "detail": {
+        "selections": 6,
+        "per_selection_n": 31
+      }
+    },
+    {
+      "check": "width_and_alternation_profiles_from_members",
+      "passed": true,
+      "detail": {
+        "profiles": 6
+      }
+    },
+    {
+      "check": "common_test_membership_overlap",
+      "passed": true,
+      "detail": {
+        "intersection": 28,
+        "union": 34,
+        "jaccard": 0.8235294117647058
+      }
+    },
+    {
+      "check": "canonical_null_pvalue_bookkeeping",
+      "passed": true,
+      "detail": {
+        "endpoints": 4,
+        "scope": "summary bookkeeping only; permutation draws not included"
+      }
+    },
+    {
+      "check": "recorded_diagram_verification_status",
+      "passed": true,
+      "detail": {
+        "status": "FULL_VERIFIED",
+        "pairs": 2,
+        "scope": "recorded certificate; no new Sage or homology execution"
+      }
+    },
+    {
+      "check": "bundled_result_file_integrity",
+      "passed": true,
+      "detail": {
+        "files": 334,
+        "mismatches": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "revision_evidence_20260915T221341Z_247ec2d7.zip",
+    "original_filename": "revision_evidence_20260915T221341Z_247ec2d7.zip",
+    "sha256": "24ef6a2e02ccaa82d3ed406b20be1f77949b641069661bb38a345841452bf7f3",
+    "bytes": 28539,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  },
+  {
+    "file": "stage43_review.zip",
+    "original_filename": "stage43_review.zip",
+    "sha256": "fef32818f4a055e01580e2807ae7d3c2cdd22a56ca8f4d86f205d0b36c5467f8",
+    "bytes": 2296595,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  },
+  {
+    "file": "stage44_review.zip",
+    "original_filename": "stage44_review.zip",
+    "sha256": "c67cfeb4a3a8629c6c32c018c56382eb44af62b4cb22eea080376e613f8816ad",
+    "bytes": 1361553,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  },
+  {
+    "file": "stage45_review.zip",
+    "original_filename": "stage45_review.zip",
+    "sha256": "39204e30474cbb6ceb62c495e6cc4b938d76d7b81d94d4094bbec2a479ed3ff6",
+    "bytes": 684159,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  },
+  {
+    "file": "stage46_review_verified.zip",
+    "original_filename": "stage46_review(1).zip",
+    "sha256": "30a9e403ff5a8fe95ee560ecd440a0ecb235f73927930eebbeffc7180ba5032a",
+    "bytes": 1212658,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  },
+  {
+    "file": "stage47_review.zip",
+    "original_filename": "stage47_review.zip",
+    "sha256": "f052b6a12b8f4a90a2a99cea723681e9313b862f34807b9616039569bd698a66",
+    "bytes": 23561,
+    "origin": "Previously supplied by the author; not recomputed in this release preparation"
+  }
+]

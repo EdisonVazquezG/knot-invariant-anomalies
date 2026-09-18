@@ -1,0 +1,206 @@
+[
+  {
+    "file": "notebooks/stage21_final_mlst_artifacts.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "ac30551c1ad47b900a04d3fe52eb76eb2e9de2402587b770f8ff73621251c5a3",
+    "after_sha256": "9a5ed676f2c975f92b86f826612fee79d17b737150089610e8f0235fb9ba386a"
+  },
+  {
+    "file": "notebooks/stage22_gap_thickness_dependence.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "21d96e3538edb74bf86b346210971654b3af0ae1eea0c4013ae30eb065e31586",
+    "after_sha256": "eaaa2dd6c93f2360de7f8ea1b0ec435511efe7d1afaeb996321724faa53d94d0"
+  },
+  {
+    "file": "notebooks/stage23B_size_matched_score_sensitivity.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "905872304c27cd51d9e993455c0c15ff22d7d3eee8b0ccf9437148549989ff98",
+    "after_sha256": "86655c53b552c8b5074952b5afe26b7e1ac5e8f56f06b82787983c3d61a9f7a8"
+  },
+  {
+    "file": "notebooks/stage23_anomaly_score_baselines.py",
+    "change": "explicit frozen input paths and configurable roots",
+    "before_sha256": "4970ed99e0c10254ba3a05ab53fe6950a8b9a3137cc72a66f62b66b7a23ac091",
+    "after_sha256": "01ddf25d1eac3babda3102408328d98a62086e5661402a453f95b3eb7025a247"
+  },
+  {
+    "file": "notebooks/stage24_mirror_support_directional_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "5c5e756078c1fac797e0439afd23ad9b268ddb7e0988c24323e1648a817b2e62",
+    "after_sha256": "247558537d7e5e7bfa9fd5a07b038d33498da23cc4ed91d450ad73c83e67808a"
+  },
+  {
+    "file": "notebooks/stage25A_revision_audit_tables.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "2dcadc8e47d2601815667e5ccf36eea2539ea1b57accc43b71db1d2256a76425",
+    "after_sha256": "ff8f134d94c393e1d84a0893f87c6700958791c64fde6fd9063bb76311716097"
+  },
+  {
+    "file": "notebooks/stage25_score_matched_geometry.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "5fe3ec195c7a4b401ce31a73f4036cff18e6c6c5461a743588363904ae75c7d7",
+    "after_sha256": "cfba1a5fb2b214e2e43979643602d41ab1252757e13a428f162f3a263c0c1f74"
+  },
+  {
+    "file": "notebooks/stage26_bootstrap_confidence_intervals.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "df9f1cf24f0fd2b4ab7d4f8aa043c9441551777970d1bb5259c309e03d2a8c6c",
+    "after_sha256": "eb48addaa688b4c0b7538d06f8ab1bdd01c177b4683602d3b1e8335e6b4aea9e"
+  },
+  {
+    "file": "notebooks/stage27_khovanov_norm_bin_null_sensitivity.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "a07fe82299322343d3d61525cb6ffc330157f7ac582c64e2d6738d57f6f3077c",
+    "after_sha256": "5ddaa6e2ed12b07c77ae3f7618cb7feb4ae7453801b71c333d42bef563e8e4e8"
+  },
+  {
+    "file": "notebooks/stage28_definition_provenance_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "9734e4082f5db559edc51cdae0a7e752c3b078be612f172bfe043bb6f87e4974",
+    "after_sha256": "cc6048fdb6d6b7867cc492a29d36116a99a5358e11dfb81265a5783bad64297f"
+  },
+  {
+    "file": "notebooks/stage29_statistical_null_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "157c079c894a22c0a3517405fb58300d58dbe6720fcb83834bd12cdb1359eacc",
+    "after_sha256": "ee674940f200ef634e06f5fc3c5a209555ef119757d565875b82d106aa7be8aa"
+  },
+  {
+    "file": "notebooks/stage29b_final_joint_null.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "9c73fbc4be1c458bc2b816f9136300d1683e75ec41dd68acf3af9a7ac86a7a92",
+    "after_sha256": "e8c73eee5bb4f61571caf0d7d699d18ff869bc006bc006dcc170a2dc9137a66d"
+  },
+  {
+    "file": "notebooks/stage29c_continuous_amplitude_residualized.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "91ec1ba43c6c5a09f6819434db1352b33c7163fb8609269b7fca0de2fe257c65",
+    "after_sha256": "8c3edf4be8799d07324bf8534f236488b471c96a32be8157544ff1c5eb2c6b14"
+  },
+  {
+    "file": "notebooks/stage29c_continuous_amplitude_residualized_v2.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "100fa65a3e64785d75b9a692de6ef4d0860563f0430616cd8d685d17901a56c2",
+    "after_sha256": "5f678d0de8ec34506d6373e8a28abf547a86ffd0aa21b1389a25859f8ab5793c"
+  },
+  {
+    "file": "notebooks/stage30_tie_boundary_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "8837ba8927bf9c4694b26da604a1d22e6d7b3e288f8f258b6a679ca950c3bc13",
+    "after_sha256": "f15177db66617b3f5df507477a9d2f76fe7bd5c281a422c9c65c772217012a2d"
+  },
+  {
+    "file": "notebooks/stage31A_theta_mirror_action_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "d92159c97a4fec8bd5425e18db72b9c912eb0e9d8d5d9cdeb9986f89e0cbe531",
+    "after_sha256": "7f710328a0fabbd85329c4d1edea58fb0b30289c384617a14a001918b65cc57a"
+  },
+  {
+    "file": "notebooks/stage31B_corrected_four_view_mirror_withheld_khovanov.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "7010ac17c20c1a70cca6fde443ee171ef8e47eee14c79eb791418e12c23949a2",
+    "after_sha256": "d86fc4be3e3d18e47da795bd6ed76a014692d7b30ff84535e8c9a8cd5e3405c9"
+  },
+  {
+    "file": "notebooks/stage31_crossing_number_extrapolation.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "ff8c3fd00ba10bc9ce57b47ea2c38a1d4bc739379c3b0ca3717856c4ee79a4cb",
+    "after_sha256": "59fd77b2edf8a958bc8b6cea1b55618deb01a4c7cc3b7d95e00c6fb14daa3d88"
+  },
+  {
+    "file": "notebooks/stage32B_multiplier_gcm_calibration.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "0e0f26357471803c28504c5a2baa93e650500fa912fec5cbef3ea480454464c5",
+    "after_sha256": "256f80b4693b7857691e8410830efa1d3da23694ebb6d8432beb5d7f1d384fb9"
+  },
+  {
+    "file": "notebooks/stage32_gcm_width_association.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "d7139365f555eb13b3b6fb88f6f01282bf3d512caaa34c4f2559a5aa3d45d51d",
+    "after_sha256": "2f002b3fb24117aa5cf9f57f8fcf13ef4a54b04cfee37cb0e7180286bfc2045d"
+  },
+  {
+    "file": "notebooks/stage32_representation_robustness_audits.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "cfa35b59f66a265d40b995cad4bacd3e1afd4685595988f8329d02b4604a433a",
+    "after_sha256": "5e432c3687d6c7818bec06bae139721c9e0afd09dca4fa3c2f7aaa7732eb490f"
+  },
+  {
+    "file": "notebooks/stage32_representation_robustness_audits_v2.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "d1fe329715ec52d7288754e1baa73ffe64379035e75cd2f407f7eb77efa74c8f",
+    "after_sha256": "a737bb40c129a95726cd9d24d67d0f1096d7752018c14c36f73155a595daaad4"
+  },
+  {
+    "file": "notebooks/stage33B_example_pair_extraction.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "c0cebaa858a353c6fe2b5e8a13532aeb9a8540822f6b331039289e22d1c605f2",
+    "after_sha256": "da00843a5e41feaf4c810dec4b262ca779fa08b1407985d587a16fe2994b5b71"
+  },
+  {
+    "file": "notebooks/stage33_view_ablation_and_fibers.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "707b8167e20a22bca92ba281881e037fe2b3eb4bb8a127fe8f59aed54f805aca",
+    "after_sha256": "6d4cd719402921a8147f2040e3232271b97ead18fd2aab79108c143904f4f038"
+  },
+  {
+    "file": "notebooks/stage34_turaev_width_consequence_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "a7b990fcf12ef133936c6c7a72166a8503ee4a6e4e6a295cdafd7fd6d9ef20f2",
+    "after_sha256": "60ea8a76a023926aa48d04b28d97149a439059deb00ca0a20ebf819ae1ca6e31"
+  },
+  {
+    "file": "notebooks/stage35_khovanov_grading_width_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "ed3255d9b72102f470903e4563b2a0f6a54577b062d2705831a62f5207b06a74",
+    "after_sha256": "34bdef57c4c75b961239e41fd4b36b605e9ec71c5eddf162653a6079ce534ce4"
+  },
+  {
+    "file": "notebooks/stage36_euler_cancellation_endpoint.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "12fc08d4ffeeba03c71692d9d147d8d2d3f2e7b6cc01902676b6ccb0b29becbb",
+    "after_sha256": "7e4b85b15f48ad60504e8763d7f175e663f377f0a1d2f9a558d03c3376daba5d"
+  },
+  {
+    "file": "notebooks/stage37_mirror_symmetrized_score.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "7a0f79f35b1d9cacf7544cc5d5f8e67d14a960e333b9735ac2f8a37aec22affc",
+    "after_sha256": "ce2486f3232606fc6cc3be749aea6fe39e48d7112d9121eb7db532116534b9e0"
+  },
+  {
+    "file": "notebooks/stage38_residual_compression_sensitivity.py",
+    "change": "isolated child execution, environment restoration, configurable roots",
+    "before_sha256": "c1858f3dcfb705dab7bf3fbecc36a0095dcb1979c23eb741f5fb7976d8f5ec77",
+    "after_sha256": "a5e2d821755ab2bb7dbcf9f47a4f6cafcedb459a3f6d7cb22a62def8a32b5b1b"
+  },
+  {
+    "file": "notebooks/stage39_per_norm_matching_balance.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "e7148f3459429300f6258adfefdeb079d6fe0fcbb6389bf6cef8c7907c0cb4e3",
+    "after_sha256": "d9db4b292db6893f6fb92f383e15769f4758bb1f74a8e687dfeefe61684d8b67"
+  },
+  {
+    "file": "notebooks/stage40_revision_audit_v2.py",
+    "change": "robust notebook reference/inline-block audit and configurable roots",
+    "before_sha256": "5fdcee339d4c107820b85eb4684882554fd30f142372f0fa2f2d5155e912e95d",
+    "after_sha256": "c723e4561ecd7fe587198c5b3a7afc79b506c404ced75a04730d8097ae755ec2"
+  },
+  {
+    "file": "notebooks/stage41_theta_preprocessing.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "77834138ff6771ed5d43b3f67c301ec0cf79bd9a4bb11110ece597ebf94985c0",
+    "after_sha256": "84c67c2bebcc7c830e3e9bdf91dd1d24d16b050b02576733eae5b6ac365c1886"
+  },
+  {
+    "file": "notebooks/stage42_crossing15_grid.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "40d7d5b85baafdfde4bdf6ebcdb4baed28fe3db4e85f4442e7c5551f8403cadb",
+    "after_sha256": "86f41a656438703a3d88c7a609fe0f7b44f3e402fe3e752df4c607af8fab2c67"
+  },
+  {
+    "file": "notebooks/stage43_split_tuple_audit.py",
+    "change": "path configuration only; AST equivalence after restoring defaults",
+    "before_sha256": "0be264d8c3238254dc69f4f7d7bc997f6de636ba259f909c26c83fe4b4086ae7",
+    "after_sha256": "b0ad55e275cf14c9b6fa084a15ad88988f436342db1b775b5079c6c7794b1d9d"
+  }
+]

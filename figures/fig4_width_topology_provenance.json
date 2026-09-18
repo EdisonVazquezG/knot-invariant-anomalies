@@ -1,0 +1,16 @@
+{
+  "figure": "4",
+  "source": "output/release_review_v2/consensus_hardness_refactored/paper_results/34_turaev_width_consequence_audit/WKh_ge4_selected_count_audit.csv",
+  "source_sha256": "bfae23bdd42fa48c1af24ca121ccdd7a74136966f040fc4f3ac0419485404205",
+  "script_sha256": "11c924778c79ec39cb2b8d094eceabe47a2e6f63245e84c48c07b6882295d706",
+  "outputs": [
+    {
+      "file": "fig4_width_topology.pdf",
+      "sha256": "5155b14510ef684ad955e8828feae92d5fd61e00dadb5135bf9351207451a3aa"
+    },
+    {
+      "file": "fig4_width_topology.png",
+      "sha256": "20f02faf51ae5e76167de162ee7d7957a92581c2c994565d4505e89042ceeba4"
+    }
+  ]
+}

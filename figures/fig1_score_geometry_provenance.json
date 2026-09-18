@@ -1,0 +1,16 @@
+{
+  "figure": "1",
+  "source": "Illustrative geometry, not empirical data",
+  "source_sha256": null,
+  "script_sha256": "11c924778c79ec39cb2b8d094eceabe47a2e6f63245e84c48c07b6882295d706",
+  "outputs": [
+    {
+      "file": "fig1_score_geometry.pdf",
+      "sha256": "94a1014d2e1ff2a2a5e1a85cada2c6919b85ae43c7728f61cadeaab4c0b454b1"
+    },
+    {
+      "file": "fig1_score_geometry.png",
+      "sha256": "5d6646fc1d65e107c758467fc6ba3512636bd223d55d58b8b5d30de286fa0d55"
+    }
+  ]
+}

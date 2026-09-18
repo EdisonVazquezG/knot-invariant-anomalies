@@ -1,0 +1,284 @@
+{
+  "status": "SOFTWARE_CHECKS_PASS",
+  "syntax_errors": [],
+  "recorded_notebook_script_calls": [
+    {
+      "cell": 3,
+      "script": "collect_revision_evidence.py",
+      "present": true
+    },
+    {
+      "cell": 148,
+      "script": "stage18A_mirror_invariant_gap.py",
+      "present": true
+    },
+    {
+      "cell": 154,
+      "script": "stage18B_random_mirror_selection.py",
+      "present": true
+    },
+    {
+      "cell": 155,
+      "script": "stage18C_random_mirror_exact_nulls.py",
+      "present": true
+    },
+    {
+      "cell": 157,
+      "script": "stage19_conditional_heldout_validation.py",
+      "present": true
+    },
+    {
+      "cell": 159,
+      "script": "stage20_mathematical_phenotype_tests.py",
+      "present": true
+    },
+    {
+      "cell": 161,
+      "script": "stage20B_no_khovanov_external_thickness.py",
+      "present": true
+    },
+    {
+      "cell": 163,
+      "script": "stage21_final_mlst_artifacts.py",
+      "present": true
+    },
+    {
+      "cell": 167,
+      "script": "stage22_gap_thickness_dependence.py",
+      "present": true
+    },
+    {
+      "cell": 168,
+      "script": "stage23_anomaly_score_baselines.py",
+      "present": true
+    },
+    {
+      "cell": 171,
+      "script": "stage24_mirror_support_directional_audit.py",
+      "present": true
+    },
+    {
+      "cell": 172,
+      "script": "stage23B_size_matched_score_sensitivity.py",
+      "present": true
+    },
+    {
+      "cell": 175,
+      "script": "stage25A_revision_audit_tables.py",
+      "present": true
+    },
+    {
+      "cell": 176,
+      "script": "stage25_score_matched_geometry.py",
+      "present": true
+    },
+    {
+      "cell": 178,
+      "script": "stage26_bootstrap_confidence_intervals.py",
+      "present": true
+    },
+    {
+      "cell": 179,
+      "script": "stage27_khovanov_norm_bin_null_sensitivity.py",
+      "present": true
+    },
+    {
+      "cell": 180,
+      "script": "stage28_definition_provenance_audit.py",
+      "present": true
+    },
+    {
+      "cell": 181,
+      "script": "stage29_statistical_null_audit.py",
+      "present": true
+    },
+    {
+      "cell": 182,
+      "script": "stage30_tie_boundary_audit.py",
+      "present": true
+    },
+    {
+      "cell": 184,
+      "script": "stage29b_final_joint_null.py",
+      "present": true
+    },
+    {
+      "cell": 185,
+      "script": "stage29c_continuous_amplitude_residualized.py",
+      "present": true
+    },
+    {
+      "cell": 186,
+      "script": "stage29c_continuous_amplitude_residualized_v2.py",
+      "present": true
+    },
+    {
+      "cell": 187,
+      "script": "stage32_representation_robustness_audits.py",
+      "present": true
+    },
+    {
+      "cell": 188,
+      "script": "stage32_representation_robustness_audits_v2.py",
+      "present": true
+    },
+    {
+      "cell": 189,
+      "script": "stage31A_theta_mirror_action_audit.py",
+      "present": true
+    },
+    {
+      "cell": 190,
+      "script": "stage31B_corrected_four_view_mirror_withheld_khovanov.py",
+      "present": true
+    },
+    {
+      "cell": 191,
+      "script": "stage32_gcm_width_association.py",
+      "present": true
+    },
+    {
+      "cell": 192,
+      "script": "stage33_view_ablation_and_fibers.py",
+      "present": true
+    },
+    {
+      "cell": 193,
+      "script": "stage34_turaev_width_consequence_audit.py",
+      "present": true
+    },
+    {
+      "cell": 194,
+      "script": "stage32B_multiplier_gcm_calibration.py",
+      "present": true
+    },
+    {
+      "cell": 195,
+      "script": "stage33B_example_pair_extraction.py",
+      "present": true
+    },
+    {
+      "cell": 196,
+      "script": "stage35_khovanov_grading_width_audit.py",
+      "present": true
+    },
+    {
+      "cell": 197,
+      "script": "stage31_crossing_number_extrapolation.py",
+      "present": true
+    },
+    {
+      "cell": 198,
+      "script": "stage36_euler_cancellation_endpoint.py",
+      "present": true
+    },
+    {
+      "cell": 199,
+      "script": "stage38_residual_compression_sensitivity.py",
+      "present": true
+    },
+    {
+      "cell": 200,
+      "script": "stage37_mirror_symmetrized_score.py",
+      "present": true
+    },
+    {
+      "cell": 201,
+      "script": "stage39_per_norm_matching_balance.py",
+      "present": true
+    },
+    {
+      "cell": 202,
+      "script": "stage40_revision_audit_v2.py",
+      "present": true
+    },
+    {
+      "cell": 203,
+      "script": "stage41_theta_preprocessing.py",
+      "present": true
+    },
+    {
+      "cell": 204,
+      "script": "stage42_crossing15_grid.py",
+      "present": true
+    },
+    {
+      "cell": 205,
+      "script": "stage43_split_tuple_audit.py",
+      "present": true
+    },
+    {
+      "cell": 206,
+      "script": "stage44_theta_float64_verification.py",
+      "present": true
+    },
+    {
+      "cell": 207,
+      "script": "stage46_independent_diagram_verification.py",
+      "present": true
+    },
+    {
+      "cell": 208,
+      "script": "stage47_fiber_grouped_validation.py",
+      "present": true
+    }
+  ],
+  "recorded_notebook_errors": [
+    {
+      "cell": 135,
+      "name": "AssertionError",
+      "message": ""
+    }
+  ],
+  "evidence_archives": [
+    {
+      "file": "revision_evidence_20260915T221341Z_247ec2d7.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    },
+    {
+      "file": "stage43_review.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    },
+    {
+      "file": "stage44_review.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    },
+    {
+      "file": "stage45_review.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    },
+    {
+      "file": "stage46_review_verified.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    },
+    {
+      "file": "stage47_review.zip",
+      "hash_and_crc_ok": true,
+      "corrupt_member": null
+    }
+  ],
+  "installed_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "statsmodels": null,
+    "pyarrow": null,
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.8",
+    "ipython": null,
+    "pytest": null
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "raw_inputs": [],
+  "frozen_inputs": [],
+  "requested_inputs_present": true,
+  "fresh_full_execution_verified": false,
+  "scope": "Static source checks, archive integrity and optional input existence. Saved outputs are historical evidence, not a new run."
+}
