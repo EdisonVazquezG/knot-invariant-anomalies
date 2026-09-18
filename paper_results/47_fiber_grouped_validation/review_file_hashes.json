@@ -1,0 +1,18 @@
+{
+  "Alexander_source_audit.json": "37886300de6425cea65fedf2a0e1fad26ec068da6f8bb082dae248bb12f752ef",
+  "HOMFLY_PT_source_audit.json": "48a542b135acc08cc5b36d42c4b2806304c2aa7662b83ed9d9ff974396940150",
+  "Jones_source_audit.json": "fe75920eb88695f8381441eb33c83afa394ad6be6cacbcd6594f7e0c834fec85",
+  "Theta_source_audit.json": "a54ad866ac29fa82541312d18adacd3e609247e1174aa477faa06dfc5ce9ae89",
+  "example_provenance.csv": "2d5c0429e4cab952458b96fdd405d35d109fa7d02e3f8f8fa662a1094c38873e",
+  "headline_profiles.csv": "c7dc200785f4c610fe153d12a2606314ac9d5c3faada9a0adebef2abb1ce932b",
+  "interpretation.txt": "ede3d920fd8b20f0c9ac4620d4b3ed7ed51758755230c7a194e289f795c7b9ee",
+  "main_text_comparison.csv": "2e313c86495f96b40ff37fc1fb5278455b0f965b420a8c53a29c45d8aef8c870",
+  "manifest.json": "aebf03ab5738dfa9e50132af46b710802287e4ddeb12f16b957d2a9a5349f53c",
+  "membership_comparisons.csv": "1be941c805242a195ec7441d63af5f9c637423a05671fef06e87fdd97180764d",
+  "numeric_and_calibration_checks.csv": "a52f307bf72aaa260ff636d18ea91acacd49105cd0dd0bb9e32112de6d9ce10a",
+  "run_summary.json": "18d244f22febb8ce15d2013bd6065251849cbebbf4c3b58556032f862f4d7477",
+  "selected_ids.csv": "141d3d6cf3a867443ff3d7108c1bcc5b7975be9fa459630b72c7bb95b7216308",
+  "split_input_overlap.csv": "67203a6ffd23d12b422f082f18046cab5724cf0bae68fc38603781ddb35b9f91",
+  "split_sizes.csv": "712d5780b1fc5f0a5b74fd40e47ec609b4ecbcaa25cf6aac0b094a7a823d77a0",
+  "stage47_fiber_grouped_validation.py": "baa3ceec7ae370b807ed71a08f164211adbf9c78382eb37a5d03e0b2b821633e"
+}

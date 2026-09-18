@@ -1,0 +1,11 @@
+design,input_family,n_groups,groups_spanning_partitions,val_seen_in_train_n,test_seen_in_train_n,test_seen_in_train_or_val_n
+frozen,Alexander,76904,29466,40141,40019,40912
+frozen,Jones,149227,40213,30855,30700,32650
+frozen,HOMFLY-PT,225449,30792,17757,17422,19627
+frozen,Theta,306181,2903,1455,1436,1699
+frozen,joint_four_view,306667,2880,1372,1353,1613
+grouped,Alexander,76904,29308,39925,39917,40874
+grouped,Jones,149227,38968,29974,30228,32245
+grouped,HOMFLY-PT,225449,28779,16597,16754,18899
+grouped,Theta,306181,90,107,121,128
+grouped,joint_four_view,306667,0,0,0,0

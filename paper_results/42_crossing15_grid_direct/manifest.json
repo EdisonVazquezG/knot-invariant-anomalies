@@ -1,0 +1,27 @@
+{
+  "stage": 42,
+  "reps_new": 2000,
+  "seed": 2026091442,
+  "bins": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "calibration_norm_bins": 100,
+  "selected_n": 180,
+  "input_hashes": {
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/31_crossing_number_extrapolation/crossing15_selected_members.csv": "e9a8877cabcf7f46d3885c61bbfaa473ed5fc67b1fe7ea6e32130691eb1842fa",
+    "/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage42_crossing15_grid.py": "40d7d5b85baafdfde4bdf6ebcdb4baed28fe3db4e85f4442e7c5551f8403cadb",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/31_crossing_number_extrapolation/crossing15_noKh_fixed_selection_null.parquet": "80be8e5f84b521276f039c1ee298e6f56d49c50ff2109ca4e6f7bd8f18153849",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/31_crossing_number_extrapolation/crossing15_fixed_selection_null_summary.csv": "7b0865b7796655bdcdd95543a2124492e207c22ef874cf8fbd3a185cb963865a",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet": "ceba9050816909965c0665c421478987bfba992746f14c88adced3abf6390a89",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Alexander_upto17.csv": "f7d1454e2812220cbd9c95ec348e5994be9805597baeb3d02d8826467e5ee550",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Jones_upto17_MIRRORS.csv": "de491732167688e389c19a42211c3a9e6b5993197f11debd3498200d96a2dbe7",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/HomflyPt_upto15_MIRRORS.csv": "bdbbf35a6907fbf17844f09f0b8d4f49ad67938f7a442adfbb0fb354f5978c80",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/theta_upto15.csv": "bb3a2d92298ab42257a36e94abf78b9c8b50f90b3795e7a0717ddc13df592eeb",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/even_KH_upto17.pkl": "f1897500e52a499ee08f4404eecf99c0b569d65f1e7b2e0e286934536713d1a7"
+  },
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3"
+}

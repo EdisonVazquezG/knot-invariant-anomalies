@@ -1,0 +1,82 @@
+{
+  "alexander": {
+    "A-1": -1,
+    "A0": 3,
+    "A1": -1
+  },
+  "alexander_method": "exact HOMFLY specialization",
+  "completed": true,
+  "euler_jones_check": true,
+  "free": {
+    "F_q-1_t-1": 1,
+    "F_q-1_t0": 1,
+    "F_q-5_t-2": 1,
+    "F_q1_t0": 1,
+    "F_q1_t1": 1,
+    "F_q5_t2": 1
+  },
+  "free_stats": {
+    "diagonals": [
+      -1,
+      1
+    ],
+    "euler_q": {
+      "-5": 1,
+      "5": 1
+    },
+    "rank": 6,
+    "width": 2
+  },
+  "homfly_regina_alpha_z": {
+    "a-2_z0": 1,
+    "a0_z0": -1,
+    "a0_z2": -1,
+    "a2_z0": 1
+  },
+  "jones": {
+    "J-1": -1,
+    "J-2": 1,
+    "J0": 1,
+    "J1": -1,
+    "J2": 1
+  },
+  "knot": "4_1",
+  "raw_khoca_unreduced": [
+    [
+      -2,
+      5,
+      0,
+      1
+    ],
+    [
+      -1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      -1,
+      0,
+      1
+    ],
+    [
+      2,
+      -5,
+      0,
+      1
+    ]
+  ]
+}

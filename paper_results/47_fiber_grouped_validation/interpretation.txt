@@ -1,0 +1,14 @@
+MAIN TEXT: main_text_comparison.csv compares two float64 refits on identical held-out IDs.
+Use membership_comparisons.csv split_effect row with this table. All endpoint contrasts are descriptive.
+SI: headline_profiles.csv also reports each full test and the historical scores separately.
+The common-test pool is smaller, so top-31 is a different selection fraction than each full test.
+Split grouping uses only exact four-polynomial inputs. Models remain per-view: component repetition can persist.
+Fixed PCA dimensions are inherited from the benchmark; this does not reselect k from training.
+This is one additional split within the same atlas, not independent external replication.
+Historical/refitted disagreement includes precision and implementation/environment, not partition changes.
+Pair provenance is retrospective and limited to the saved four-view conditional benchmark.
+Training/validation examples have no frozen test score. Blank means ineligible/unavailable, not zero.
+The original exact-fiber audit identified the pairs; diagram computations certified them.
+High rank or membership found now does not demonstrate detector-led discovery.
+This stage does not recompute a width-adjusted randomization p-value, matched geometry, or autoencoders.
+Keep checkpoints, split_assignments.csv and all_test_scores.csv in Drive; omitted from review ZIP.

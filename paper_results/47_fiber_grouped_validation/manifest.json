@@ -1,0 +1,53 @@
+{
+  "batch_size": 8192,
+  "chunk_rows": 4096,
+  "fit_dtype": "float64",
+  "grouped_split_rule": "randomized whole exact fibers; nearest cumulative row-count cuts",
+  "historical_validation": {
+    "saved_cohort_n": 31,
+    "saved_cohort_reproduced": true,
+    "score_identity_checks": {
+      "Alexander": "frozen_split_order_and_cohort_reproduction",
+      "HOMFLY-PT": "frozen_split_order_and_cohort_reproduction",
+      "Jones": "frozen_split_order_and_cohort_reproduction",
+      "Theta": "frozen_split_order_and_cohort_reproduction"
+    }
+  },
+  "input_sha256": {
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Alexander_upto17.csv": "f7d1454e2812220cbd9c95ec348e5994be9805597baeb3d02d8826467e5ee550",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/HomflyPt_upto15_MIRRORS.csv": "bdbbf35a6907fbf17844f09f0b8d4f49ad67938f7a442adfbb0fb354f5978c80",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Jones_upto17_MIRRORS.csv": "de491732167688e389c19a42211c3a9e6b5993197f11debd3498200d96a2dbe7",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/07_heldout_ae_target_free/scores/heldout_ae_seed_0.npz": "cacf3468f4f534ad9b68b043be3dfc46221b48ddcb5bcfc2d6beb32cbd87deed",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet": "ceba9050816909965c0665c421478987bfba992746f14c88adced3abf6390a89",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/20_mathematical_phenotype/complete_mathematical_phenotype_atlas.parquet": "5f7a0b603ab47c33ad1ba27cefa13255e87f7e88a4d955d55165e94781d3b984",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Alexander_test_scores.npz": "b687c195718037d1c8105ada2dfe1230b5bf803815f7511be02d0b7622519cea",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/HOMFLY_PT_test_scores.npz": "9d2a4d9d3ba8f52ab98beb674f3a18f6a4bfa3475982442ca8dc23720f001773",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Jones_test_scores.npz": "20af2997e56a51b9e4a366f30f44fb2d1187c8568311ec9d15b0d8ff6542ecff",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Theta_test_scores.npz": "6f332b3421854565428906dd5c2fdaae65652b21ec0aeb0e00af500e9ed7d8f4",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/33_view_ablation_and_fibers/heldout_view_ablation_n31_selected_ids.csv": "d11f738f8944afd1156a4322ff5aaa34b4d0d13351564b2518cfcc90305442e2",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/43_split_tuple_audit/all_tuple_group_memberships.npz": "592eddbc96c4b7d7a48b6f7c34564d1e11c33d8978d47d57ca50264f268b750e",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/43_split_tuple_audit/manifest.json": "b8c13b87cf1d5d316abea25b799b37d452a9919089fc746606e641405d3b31dd",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/theta_upto15.csv": "bb3a2d92298ab42257a36e94abf78b9c8b50f90b3795e7a0717ddc13df592eeb",
+    "/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage47_fiber_grouped_validation.py": "baa3ceec7ae370b807ed71a08f164211adbf9c78382eb37a5d03e0b2b821633e"
+  },
+  "k": {
+    "Alexander": 4,
+    "HOMFLY-PT": 32,
+    "Jones": 10,
+    "Theta": 10
+  },
+  "mode": "grouped_validation",
+  "n_selected": 31,
+  "norm_bins": 100,
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "pca_seed": 20261123,
+  "python": "3.13.15",
+  "scipy": "1.16.3",
+  "selection_rule": "third_largest_test_empirical_percentile; descending_lexicographic_ID_ties",
+  "sklearn": "1.6.1",
+  "source_group_mode": "reused_hash_bound_cache",
+  "split_seed": 20260917,
+  "threads": 2,
+  "version": "47.0.0"
+}

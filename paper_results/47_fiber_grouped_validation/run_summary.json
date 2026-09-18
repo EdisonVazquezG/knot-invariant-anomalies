@@ -1,0 +1,16 @@
+{
+  "atlas_n": 313230,
+  "common_test_n": 6982,
+  "detector_discovery_demonstrated": false,
+  "existing_stages_modified": false,
+  "grouped_split_run": true,
+  "inference": "descriptive; no p-values or automatic robustness verdict",
+  "joint_groups_spanning_partitions": 0,
+  "knots_in_nontrivial_fibers": 12605,
+  "largest_fiber": 6,
+  "n_selected": 31,
+  "nontrivial_fibers": 6042,
+  "primary_comparison": "two matched float64 refits on common test",
+  "status": "COMPLETE",
+  "version": "47.0.0"
+}

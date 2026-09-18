@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "knot": "4_1",
+  "representation": "braid",
+  "theta": {
+    "direct": {},
+    "mirror": {}
+  }
+}

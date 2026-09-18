@@ -1,0 +1,3 @@
+comparison,evaluation_pool,n_per_selection,intersection,union,jaccard,comparison_uses_identical_eligible_ids
+historical_vs_same_split_refit_precision_implementation,original_test,31,31,31,1.0,True
+split_effect_same_implementation_common_test,common_test,31,28,34,0.8235294117647058,True

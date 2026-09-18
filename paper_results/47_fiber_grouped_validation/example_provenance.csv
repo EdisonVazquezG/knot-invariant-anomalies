@@ -1,0 +1,13 @@
+knot_id_base,design,partition,eligible_in_test,selected_top_n,C3,C3_percentile_in_test,discovery_provenance,detector_discovery_demonstrated,rank_first_possible,rank_last_possible,Alexander_conditional_percentile,Jones_conditional_percentile,HOMFLY_PT_conditional_percentile,Theta_conditional_percentile
+14n00036,historical_random,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n11437,historical_random,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n08809,historical_random,test,True,False,0.1671384484409918,0.1445780568266468,retrospective_exact_fiber_audit; diagram_based_certification,False,40184.0,40202.0,0.17197452229299362,0.9404255319148936,0.02335456475583864,0.4288747346072187
+15n113508,historical_random,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n00036,frozen_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n11437,frozen_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n08809,frozen_refit_float64,test,True,False,0.1671384484409918,0.14455677343833137,retrospective_exact_fiber_audit; diagram_based_certification,False,40185.0,40203.0,0.17197452229299362,0.9404255319148936,0.02335456475583864,0.4288747346072187
+15n113508,frozen_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n00036,grouped_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n11437,grouped_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+14n08809,grouped_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
+15n113508,grouped_refit_float64,train,False,,,,retrospective_exact_fiber_audit; diagram_based_certification,False,,,,,,
