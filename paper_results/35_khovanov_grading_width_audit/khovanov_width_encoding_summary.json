@@ -1,0 +1,17 @@
+{
+  "n_knots": 313230,
+  "n_F_coordinates": 373,
+  "n_T2_coordinates": 337,
+  "n_T4_coordinates": 16,
+  "chosen_grading_formula": "index1_minus_2_index2",
+  "interpreted_q_index": "index1",
+  "interpreted_t_index": "index2",
+  "F_width_matches_frozen_endpoint_n": 313230,
+  "F_width_matches_frozen_endpoint_prop": 1.0,
+  "F_vs_full_exact_agreement_n": 313216,
+  "F_vs_full_exact_agreement_prop": 0.9999553044089008,
+  "F_vs_full_max_difference": 1,
+  "F_vs_full_mean_difference": 4.469559109919229e-05,
+  "n_full_width_larger_than_F": 14,
+  "W_F_le_W_full_for_all": true
+}

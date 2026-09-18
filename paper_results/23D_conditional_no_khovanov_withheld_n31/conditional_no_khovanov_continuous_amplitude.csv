@@ -1,0 +1,2 @@
+analysis,selected_n,observed_mean_diagonal,selected_mean_residual,residual_null_mean,residual_null_q025,residual_null_q975,p_emp,fixed_selected_structural
+conditional_no_khovanov_n31,31,3.161290322580645,0.27661920638131643,-0.012087681719785437,-0.11064665111430694,0.08712362721085652,0.0001999600079984003,1

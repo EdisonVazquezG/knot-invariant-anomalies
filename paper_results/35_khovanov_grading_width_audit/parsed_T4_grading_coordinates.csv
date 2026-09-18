@@ -1,0 +1,17 @@
+coordinate,index1,index2,parse_method,family
+T4_q-27_t-8,-27,-8,explicit_q_t,T4
+T4_q-25_t-8,-25,-8,explicit_q_t,T4
+T4_q-23_t-8,-23,-8,explicit_q_t,T4
+T4_q-21_t-8,-21,-8,explicit_q_t,T4
+T4_q-17_t-4,-17,-4,explicit_q_t,T4
+T4_q-15_t-4,-15,-4,explicit_q_t,T4
+T4_q-13_t-4,-13,-4,explicit_q_t,T4
+T4_q-11_t-4,-11,-4,explicit_q_t,T4
+T4_q11_t5,11,5,explicit_q_t,T4
+T4_q13_t5,13,5,explicit_q_t,T4
+T4_q15_t5,15,5,explicit_q_t,T4
+T4_q17_t5,17,5,explicit_q_t,T4
+T4_q21_t9,21,9,explicit_q_t,T4
+T4_q23_t9,23,9,explicit_q_t,T4
+T4_q25_t9,25,9,explicit_q_t,T4
+T4_q27_t9,27,9,explicit_q_t,T4

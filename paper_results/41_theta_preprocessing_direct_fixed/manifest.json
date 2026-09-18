@@ -1,0 +1,23 @@
+{
+  "stage": 41,
+  "rank_rule": "fixed",
+  "k_fixed": 10,
+  "n_selected": 31,
+  "seed": 20261123,
+  "batch_size": 8192,
+  "norm_bins": 100,
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3",
+  "input_hashes": {
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet": "ceba9050816909965c0665c421478987bfba992746f14c88adced3abf6390a89",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/07_heldout_ae_target_free/scores/heldout_ae_seed_0.npz": "cacf3468f4f534ad9b68b043be3dfc46221b48ddcb5bcfc2d6beb32cbd87deed",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Alexander_test_scores.npz": "b687c195718037d1c8105ada2dfe1230b5bf803815f7511be02d0b7622519cea",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Jones_test_scores.npz": "20af2997e56a51b9e4a366f30f44fb2d1187c8568311ec9d15b0d8ff6542ecff",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/HOMFLY_PT_test_scores.npz": "9d2a4d9d3ba8f52ab98beb674f3a18f6a4bfa3475982442ca8dc23720f001773",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/checkpoints/Theta_test_scores.npz": "6f332b3421854565428906dd5c2fdaae65652b21ec0aeb0e00af500e9ed7d8f4",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/theta_upto15.csv": "bb3a2d92298ab42257a36e94abf78b9c8b50f90b3795e7a0717ddc13df592eeb",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/20_mathematical_phenotype/complete_mathematical_phenotype_atlas.parquet": "5f7a0b603ab47c33ad1ba27cefa13255e87f7e88a4d955d55165e94781d3b984",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines/score_family_external_phenotypes.csv": "ad093629465d329181aa5cd4eed0375d2b96c0d5049d6e76e18999638ac1e1bc",
+    "/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage41_theta_preprocessing.py": "77834138ff6771ed5d43b3f67c301ec0cf79bd9a4bb11110ece597ebf94985c0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stage": 36,
+  "status": "EULER_CANCELLATION_VERIFIED",
+  "n_knots": 313230,
+  "n_free_coordinates": 373,
+  "torsion_families_excluded": true,
+  "torsion_exclusion_reason": "torsion does not contribute to the Euler characteristic",
+  "identity_max_deviation": 0.0,
+  "verified_jones_convention": "per_knot_orientation_resolved",
+  "full_atlas_reproduction_prop": 1.0,
+  "jones_khovanov_opposite_representative_prop": 0.3821089933914376,
+  "jones_khovanov_orientation_ambiguous_prop": 0.004389745554384957,
+  "mean_E": 150.33626727963477,
+  "prop_E_zero": 3.1925422213708777e-06,
+  "selection_column": "canonical_no_khovanov_3of4"
+}

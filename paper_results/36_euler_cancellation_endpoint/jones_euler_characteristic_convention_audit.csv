@@ -1,0 +1,5 @@
+candidate,mirror,sign,n_audited,exact_match_n,exact_match_prop,max_abs_deviation
+t_standard,False,1,20000,12382,0.6191,106.0
+t_inverse,True,1,20000,7705,0.38525,106.0
+t_standard_negated,False,-1,20000,0,0.0,116.0
+t_inverse_negated,True,-1,20000,0,0.0,118.0

@@ -1,0 +1,16 @@
+source,method,metric,outcome_type,n_pairs,bootstrap_unit,observed,bootstrap_mean,bootstrap_se,ci_level,ci_low,ci_high,n_valid_bootstrap
+stage25_matched_geometry,raw_sse,hyperbolic_volume_mean_difference,continuous,25,matched selected-control pair,-0.4772352276623743,-0.46985001110175434,0.8392544568105808,0.95,-2.177247885245869,1.0821265286439787,5000
+stage25_matched_geometry,raw_sse,tetrahedra_mean_difference,continuous,25,matched selected-control pair,-0.6,-0.602072,0.8875324724165977,0.95,-2.48,1.0,5000
+stage25_matched_geometry,raw_sse,nontrivial_symmetry_risk_difference,binary,25,matched selected-control pair,0.2,0.201408,0.11296694136767799,0.95,0.0,0.44,5000
+stage25_matched_geometry,relative_nre,hyperbolic_volume_mean_difference,continuous,56,matched selected-control pair,-2.23547828442385,-2.239384882611591,0.4776322064733871,0.95,-3.1780067939307597,-1.2972227733918882,5000
+stage25_matched_geometry,relative_nre,tetrahedra_mean_difference,continuous,56,matched selected-control pair,-2.375,-2.3744464285714284,0.4954285871710301,0.95,-3.375,-1.4281250000000065,5000
+stage25_matched_geometry,relative_nre,nontrivial_symmetry_risk_difference,binary,56,matched selected-control pair,0.0,0.00027142857142857144,0.08726598683477287,0.95,-0.17857142857142858,0.16071428571428573,5000
+stage25_matched_geometry,residual_mahalanobis,hyperbolic_volume_mean_difference,continuous,29,matched selected-control pair,-0.9992212971522034,-0.9792185766595379,0.7541693836932952,0.95,-2.5200570975396728,0.44367018485678966,5000
+stage25_matched_geometry,residual_mahalanobis,tetrahedra_mean_difference,continuous,29,matched selected-control pair,-1.0,-1.001158620689655,0.7929371839856741,0.95,-2.6206896551724137,0.5517241379310345,5000
+stage25_matched_geometry,residual_mahalanobis,nontrivial_symmetry_risk_difference,binary,29,matched selected-control pair,0.3103448275862069,0.31162068965517237,0.10861584730894679,0.95,0.10344827586206896,0.5172413793103449,5000
+stage25_matched_geometry,residual_isolation_forest,hyperbolic_volume_mean_difference,continuous,24,matched selected-control pair,-0.846211754832952,-0.8335582748976303,0.5366959748540201,0.95,-2.064393977454178,-0.002471436164794791,5000
+stage25_matched_geometry,residual_isolation_forest,tetrahedra_mean_difference,continuous,24,matched selected-control pair,-0.8333333333333334,-0.8282916666666668,0.5872015799656051,0.95,-2.1666666666666665,0.08333333333333333,5000
+stage25_matched_geometry,residual_isolation_forest,nontrivial_symmetry_risk_difference,binary,24,matched selected-control pair,0.25,0.24950833333333336,0.10764360239866001,0.95,0.041666666666666664,0.4583333333333333,5000
+stage25_matched_geometry,conditional_percentile_100,hyperbolic_volume_mean_difference,continuous,56,matched selected-control pair,-1.3767153311642153,-1.369565017073169,0.5444348167520701,0.95,-2.4833788118710154,-0.3340126899200155,5000
+stage25_matched_geometry,conditional_percentile_100,tetrahedra_mean_difference,continuous,56,matched selected-control pair,-1.4107142857142858,-1.411375,0.5522955764090912,0.95,-2.517857142857143,-0.35714285714285715,5000
+stage25_matched_geometry,conditional_percentile_100,nontrivial_symmetry_risk_difference,binary,56,matched selected-control pair,0.19642857142857142,0.19506071428571425,0.10067104076916586,0.95,0.0,0.39285714285714285,5000

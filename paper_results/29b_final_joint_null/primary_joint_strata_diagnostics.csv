@@ -1,0 +1,3 @@
+analysis,joint_bins,n_strata,cell_min,cell_q25,cell_median,cell_q75,singleton_prop,lt10_prop,selected_total,selected_fixed,selected_movable,selected_movable_prop,random_groups
+gap_exact_thickness_all5,2,791,1,6.0,28.0,172.0,0.09987357774968394,0.32616940581542353,413,44,369,0.8934624697336562,50
+noKh_external_Khovanov,2,583,1,7.5,34.0,217.0,0.09262435677530018,0.2830188679245283,220,21,199,0.9045454545454545,29

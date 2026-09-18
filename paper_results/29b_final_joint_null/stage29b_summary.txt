@@ -1,0 +1,23 @@
+Stage 29b final joint-null summary
+==================================
+Monte Carlo repetitions: 5000
+Joint amplitude bins per relevant view: 2
+
+Cell diagnostics:
+                analysis  joint_bins  n_strata  cell_min  cell_q25  cell_median  cell_q75  singleton_prop  lt10_prop  selected_total  selected_fixed  selected_movable  selected_movable_prop  random_groups
+gap_exact_thickness_all5           2       791         1       6.0         28.0     172.0        0.099874   0.326169             413              44               369               0.893462             50
+  noKh_external_Khovanov           2       583         1       7.5         34.0     217.0        0.092624   0.283019             220              21               199               0.904545             29
+
+Paper-facing endpoint table:
+                analysis       metric  observed  null_mean  null_sd  null_q025  null_q975  empirical_p_upper    B  Holm_p_within_family
+gap_exact_thickness_all5     P_G_gt_0  0.769231   0.645028 0.015266   0.615385   0.674556            0.00020 5000               0.00060
+gap_exact_thickness_all5       mean_G  1.733728   1.471154 0.032340   1.408284   1.532544            0.00020 5000               0.00060
+gap_exact_thickness_all5     P_G_ge_4  0.097633   0.090549 0.004407   0.082840   0.100592            0.09758 5000               0.09758
+  noKh_external_Khovanov    mean_diag  2.972727   2.414206 0.026649   2.363523   2.468182            0.00020 5000               0.00080
+  noKh_external_Khovanov  P_diag_ge_3  0.754545   0.392210 0.024836   0.340909   0.440909            0.00020 5000               0.00080
+  noKh_external_Khovanov  P_diag_ge_4  0.218182   0.021996 0.007698   0.009091   0.036364            0.00020 5000               0.00080
+  noKh_external_Khovanov mean_support 31.031818  28.384899 0.228863  27.945341  28.845455            0.00020 5000               0.00080
+
+Interpretation:
+- The null preserves the observed m-of-M consensus cardinality exactly within every common stratum and, equivalently, preserves the complete cross-view vote vector under joint permutation.
+- Fine joint grids (20/10 bins) from Stage 29 were not adopted because they lock a large fraction of selected observations. Two bins is the finest nontrivial common grid satisfying the median-cell >=10 criterion in both endpoint families.

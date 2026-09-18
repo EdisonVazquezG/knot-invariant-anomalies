@@ -1,0 +1,2 @@
+n_bootstrap_reps,seed,ci_level,ci_method,bootstrap_unit,models_refit,claim_scope
+5000,20261226,0.95,percentile,canonical knot; matched pair for geometry,False,empirical stability within the finite knot atlas

@@ -1,0 +1,5 @@
+view,mirror_action,k99,archived_opposite_missing,identical_representative_prop,spearman_can_vs_opp
+Alexander,unchanged,4,0,1.0,1.0
+Jones,archived_opposite_row,10,0,0.004389745554384957,0.2870905468325027
+HOMFLY-PT,archived_opposite_row,32,0,0.0037193116878970725,0.213720322559448
+Theta,coefficient_sign_flip_stage31A_gate,10,0,0.0011333524885866616,0.414915274541896

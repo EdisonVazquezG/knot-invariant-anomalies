@@ -1,0 +1,48 @@
+{
+  "stage": 38,
+  "frozen_residual_dim": 64,
+  "frozen_residual_fit_size": 40000,
+  "isolation_forest_trees": 300,
+  "isolation_forest_max_samples": "min(4096, n)",
+  "residual_pca_variance_floor": 1e-10,
+  "swept_settings": [
+    "32",
+    "64",
+    "128",
+    "none"
+  ],
+  "realised_dimensions": {
+    "32": {
+      "Alexander": 13,
+      "HOMFLY_PT": 32,
+      "Jones": 32,
+      "Khovanov": 32,
+      "Theta": 32
+    },
+    "64": {
+      "Alexander": 13,
+      "HOMFLY_PT": 64,
+      "Jones": 41,
+      "Khovanov": 64,
+      "Theta": 64
+    },
+    "128": {
+      "Alexander": 13,
+      "HOMFLY_PT": 120,
+      "Jones": 41,
+      "Khovanov": 128,
+      "Theta": 128
+    },
+    "none": {
+      "Alexander": 13,
+      "HOMFLY_PT": 120,
+      "Jones": 41,
+      "Khovanov": 296,
+      "Theta": 831
+    }
+  },
+  "max_abs_change_unaffected_scores": 0.0,
+  "max_abs_change_affected_scores": 32.0,
+  "min_affected_jaccard": 0.475,
+  "median_affected_jaccard": 0.8117477538565858
+}

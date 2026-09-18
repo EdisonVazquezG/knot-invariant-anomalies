@@ -1,0 +1,11 @@
+{
+  "stage": 37,
+  "construction": "S_sym(K) = (S(K) + S(Kbar)) / 2 on the union reference population",
+  "symmetry": "exact by construction; asserted numerically",
+  "max_symmetry_deviation": 0.0,
+  "khovanov_mirrored": false,
+  "khovanov_used_in_scoring": false,
+  "n_symmetrized_selection": 329,
+  "jaccard_with_frozen_canonical": 0.2978723404255319,
+  "theta_mirror_action": "coefficient_sign_flip"
+}

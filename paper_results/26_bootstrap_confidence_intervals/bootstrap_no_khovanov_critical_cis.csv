@@ -1,0 +1,5 @@
+source,family,method,metric,n_selected,bootstrap_unit,inference_target,observed,bootstrap_mean,bootstrap_se,ci_level,ci_low,ci_high,n_valid_bootstrap,member_set
+stage22_no_khovanov_full_atlas,No Khovanov >=3/4,conditional_percentile_100,kh_diagonal_mean,220,canonical knot,finite-atlas empirical stability,2.9727272727272727,2.972101818181818,0.04584852315251051,0.95,2.881818181818182,3.0636363636363635,5000,
+stage22_no_khovanov_full_atlas,No Khovanov >=3/4,conditional_percentile_100,kh_diagonal_ge_3_prop,220,canonical knot,finite-atlas empirical stability,0.7545454545454545,0.7545127272727273,0.028779571838899634,0.95,0.6954545454545454,0.8136363636363636,5000,
+stage22_no_khovanov_full_atlas,No Khovanov >=3/4,conditional_percentile_100,kh_diagonal_ge_4_prop,220,canonical knot,finite-atlas empirical stability,0.21818181818181817,0.21758909090909093,0.027887067067060796,0.95,0.16363636363636364,0.2727272727272727,5000,
+stage22_no_khovanov_full_atlas,No Khovanov >=3/4,conditional_percentile_100,kh_support_mean,220,canonical knot,finite-atlas empirical stability,31.03181818181818,31.028590909090905,0.2795785393971476,0.95,30.48181818181818,31.577272727272728,5000,

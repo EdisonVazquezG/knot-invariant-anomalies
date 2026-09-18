@@ -1,0 +1,26 @@
+{
+  "train_n": 219261,
+  "validation_n": 46984,
+  "test_n": 46985,
+  "test_tail_per_view": 470,
+  "pca_k": {
+    "Alexander": 4,
+    "Jones": 10,
+    "HOMFLY-PT": 32,
+    "Theta": 10,
+    "Khovanov": 77
+  },
+  "residual_sketch_dimension_requested": 64,
+  "residual_fit_size": 40000,
+  "isolation_forest_trees": 300,
+  "main_methods": [
+    "raw_sse",
+    "relative_nre",
+    "residual_mahalanobis",
+    "residual_isolation_forest",
+    "conditional_percentile_100"
+  ],
+  "primary_vote_rule": ">=3/5",
+  "external_vote_rule": ">=3/4 without Khovanov",
+  "note": "The Mahalanobis score is evaluated in the leading train-fitted orthogonal residual sketch, not in the retained PCA coordinates."
+}
