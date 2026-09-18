@@ -1,0 +1,63 @@
+Loading archived Khovanov table: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/even_KH_upto17.pkl
+Coordinate counts: F=373, T2=337, T4=16
+Testing grading candidate: index1_minus_2_index2
+Width audit: 81,920/313,230
+Width audit: 163,840/313,230
+Width audit: 245,760/313,230
+Width audit: 313,230/313,230
+Testing grading candidate: index2_minus_2_index1
+Width audit: 81,920/313,230
+Width audit: 163,840/313,230
+Width audit: 245,760/313,230
+Width audit: 313,230/313,230
+Computing full stored F+T2+T4 occupied-diagonal count...
+Width audit: 81,920/313,230
+Width audit: 163,840/313,230
+Width audit: 245,760/313,230
+Width audit: 313,230/313,230
+
+========================================================================================
+STAGE 35 COMPLETE
+========================================================================================
+
+Grading candidate reproduction:
+    grading_candidate  exact_agreement_n  exact_agreement_prop  mean_abs_difference_vs_frozen_endpoint  max_abs_difference_vs_frozen_endpoint
+index1_minus_2_index2             313230                   1.0                                 0.00000                                    0.0
+index2_minus_2_index1                  0                   0.0                                25.54294                                   35.0
+
+Encoding summary:
+ n_knots  n_F_coordinates  n_T2_coordinates  n_T4_coordinates chosen_grading_formula interpreted_q_index interpreted_t_index  F_width_matches_frozen_endpoint_n  F_width_matches_frozen_endpoint_prop  F_vs_full_exact_agreement_n  F_vs_full_exact_agreement_prop  F_vs_full_max_difference  F_vs_full_mean_difference  n_full_width_larger_than_F  W_F_le_W_full_for_all
+  313230              373               337                16  index1_minus_2_index2              index1              index2                             313230                                   1.0                       313216                        0.999955                         1                   0.000045                          14                   True
+
+Coordinate-value audit:
+family  min_value  max_value  negative_entry_count  noninteger_entry_count  nonzero_entry_count
+     F        0.0      157.0                     0                       0              8695739
+    T2        0.0      156.0                     0                       0              4431163
+    T4        0.0        1.0                     0                       0                   38
+
+F/full disagreements saved: 14
+knot_id_base  W_F  W_full_stored  full_minus_F
+   15n041127    3              4             1
+   15n052477    2              3             1
+   15n053135    2              3             1
+   15n059044    2              3             1
+   15n116363    2              3             1
+   15n124915    2              3             1
+   15n132623    2              3             1
+   15n132672    2              3             1
+   15n135086    2              3             1
+   15n139104    2              3             1
+   15n140905    2              3             1
+   15n141051    2              3             1
+   15n141556    2              3             1
+   15n154386    2              3             1
+
+Stage-34 threshold audit:
+              selection  n  min_W_F  min_W_full  all_preserved
+    canonical_noKh_n220 48        4           4           True
+heldout_conditional_n31  9        4           4           True
+   heldout_relative_n31  5        4           4           True
+
+Gate: COMPUTATIONAL_ENCODING_VERIFIED
+The mathematical interpretation of F_ as free/rational Khovanov ranks and T2_/T4_ as torsion families should be tied to the dataset/source documentation.
+Saved Stage 35 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/35_khovanov_grading_width_audit

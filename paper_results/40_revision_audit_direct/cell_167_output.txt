@@ -1,0 +1,112 @@
+
+Observed relative-error no-Khovanov selection:
+ n  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_diagonal_ge_4_prop  kh_support_mean
+31          3.129032               0.967742                0.16129        32.032258
+
+Stage-23B reproduction check:
+kh_diagonal_mean             actual=3.129032 expected≈3.129032 diff=+0.000000
+kh_diagonal_ge_3_prop        actual=0.967742 expected≈0.967742 diff=-0.000000
+kh_diagonal_ge_4_prop        actual=0.161290 expected≈0.161290 diff=+0.000000
+
+======================================================================
+Relative-error no-Khovanov null: 20 bins/view
+======================================================================
+20 bins: 500/2,000
+20 bins: 1,000/2,000
+20 bins: 1,500/2,000
+20 bins: 2,000/2,000
+
+======================================================================
+Relative-error no-Khovanov null: 10 bins/view
+======================================================================
+10 bins: 500/2,000
+10 bins: 1,000/2,000
+10 bins: 1,500/2,000
+10 bins: 2,000/2,000
+
+======================================================================
+Relative-error no-Khovanov null: 5 bins/view
+======================================================================
+ 5 bins: 500/2,000
+ 5 bins: 1,000/2,000
+ 5 bins: 1,500/2,000
+ 5 bins: 2,000/2,000
+
+======================================================================
+Relative-error no-Khovanov null: 2 bins/view
+======================================================================
+ 2 bins: 500/2,000
+ 2 bins: 1,000/2,000
+ 2 bins: 1,500/2,000
+ 2 bins: 2,000/2,000
+
+======================================================================
+Relative-error no-Khovanov null: 1 bins/view
+======================================================================
+ 1 bins: 500/2,000
+ 1 bins: 1,000/2,000
+ 1 bins: 1,500/2,000
+ 1 bins: 2,000/2,000
+
+GRID TRAJECTORY — MEAN DIAGONAL
+
+
+    bins_per_view  selected_n  observed  null_mean     p_emp  \
+0              20          31  3.129032   3.129032  1.000000   
+4              10          31  3.129032   3.071452  0.102949   
+8               5          31  3.129032   2.967887  0.004498   
+12              2          31  3.129032   2.660532  0.000500   
+16              1          31  3.129032   2.413500  0.000500   
+
+    median_selected_cell_size  fixed_selected  
+0                         1.0              29  
+4                         1.0              19  
+8                         5.0               3  
+12                      175.0               0  
+16                     2262.0               0  
+
+
+======================================================================
+FINAL 2-BIN PAPER-FACING NULL
+======================================================================
+ 2 bins: 500/5,000
+ 2 bins: 1,000/5,000
+ 2 bins: 1,500/5,000
+ 2 bins: 2,000/5,000
+ 2 bins: 2,500/5,000
+ 2 bins: 3,000/5,000
+ 2 bins: 3,500/5,000
+ 2 bins: 4,000/5,000
+ 2 bins: 4,500/5,000
+ 2 bins: 5,000/5,000
+
+FINAL STRATIFIED RESULT
+
+
+                  metric   observed  null_mean  null_q025  null_q975  \
+0       kh_diagonal_mean   3.129032   2.656194   2.516129   2.806452   
+1  kh_diagonal_ge_3_prop   0.967742   0.634748   0.483871   0.774194   
+2  kh_diagonal_ge_4_prop   0.161290   0.021445   0.000000   0.064516   
+3        kh_support_mean  32.032258  28.267587  26.806452  29.709677   
+
+     z_null   p_emp  holm_p  median_selected_cell_size  fixed_selected  
+0  6.196484  0.0002  0.0008                      175.0               0  
+1  4.698415  0.0002  0.0008                      175.0               0  
+2  5.635554  0.0004  0.0008                      175.0               0  
+3  5.103016  0.0002  0.0008                      175.0               0  
+
+
+CONTINUOUS-AMPLITUDE SENSITIVITY
+
+
+                         analysis  selected_n  observed_mean_diagonal  \
+0  relative_error_no_khovanov_n31          31                3.129032   
+
+   selected_mean_residual  residual_null_mean  residual_null_q025  \
+0                0.187505           -0.000601           -0.095282   
+
+   residual_null_q975   p_emp  fixed_selected_structural  
+0            0.094741  0.0002                          0  
+
+
+Saved Stage 23C to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/23C_relative_no_khovanov_withheld

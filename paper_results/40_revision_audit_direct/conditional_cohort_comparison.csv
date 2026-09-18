@@ -1,0 +1,3 @@
+comparison,n_a,n_b,intersection,union,jaccard
+23D_direct_vs_23B_reranked,31,31,30,32,0.9375
+23D_reconstructed_vs_archived,31,31,31,31,1.0

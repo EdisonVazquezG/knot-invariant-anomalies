@@ -1,0 +1,45 @@
+Frozen test indices: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/07_heldout_ae_target_free/scores/heldout_ae_seed_0.npz
+Size-matched selected counts:
+ method
+raw_sse                       60
+relative_nre                  60
+residual_mahalanobis          60
+residual_isolation_forest     60
+conditional_percentile_100    60
+
+Matched designs:
+                     method              method_label  caliper  n_selected_total  n_selected_matched  coverage  mean_match_distance  median_match_distance  max_abs_paired_norm_smd
+                   raw_sse                   Raw SSE      0.5                60                  25  0.416667             0.178162               0.144093                 0.466306
+              relative_nre            Relative error      0.5                60                  56  0.933333             0.073994               0.047393                 0.250738
+      residual_mahalanobis      Residual Mahalanobis      0.5                60                  29  0.483333             0.130002               0.111028                 0.445914
+ residual_isolation_forest Residual isolation forest      0.5                60                  24  0.400000             0.122352               0.093350                 0.304898
+conditional_percentile_100    Conditional percentile      0.5                60                  56  0.933333             0.100235               0.076382                 0.270587
+
+Unique SnapPy knots: 258; remaining: 0
+SnapPy load status:
+ snappy_loaded
+True    258
+Name: count, dtype: int64
+
+Score-specific matched geometry:
+                     method              method_label                         outcome outcome_type  n_valid_pairs  selected_mean  control_mean  mean_paired_difference  median_paired_difference  paired_smd  selected_prop  control_prop  risk_difference  discordant_selected_yes  discordant_control_yes  p_value                 test     q_by   p_holm  holm_significant
+                   raw_sse                   Raw SSE               Hyperbolic volume   continuous             25      18.310458     18.787694               -0.477235                 -0.644460   -0.112370            NaN           NaN              NaN                      NaN                     NaN 0.596500      paired Wilcoxon 1.000000 1.000000             False
+                   raw_sse                   Raw SSE Census triangulation tetrahedra   continuous             25      19.840000     20.440000               -0.600000                 -1.000000   -0.135296            NaN           NaN              NaN                      NaN                     NaN 0.707172      paired Wilcoxon 1.000000 1.000000             False
+                   raw_sse                   Raw SSE             Nontrivial symmetry       binary             25            NaN           NaN                     NaN                       NaN         NaN       0.640000      0.440000         0.200000                      7.0                     2.0 0.179688 exact paired McNemar 0.813060 1.000000             False
+              relative_nre            Relative error               Hyperbolic volume   continuous             56      14.957005     17.192484               -2.235478                 -1.872257   -0.605213            NaN           NaN              NaN                      NaN                     NaN 0.000049      paired Wilcoxon 0.001210 0.000680              True
+              relative_nre            Relative error Census triangulation tetrahedra   continuous             56      16.446429     18.821429               -2.375000                 -2.000000   -0.633461            NaN           NaN              NaN                      NaN                     NaN 0.000024      paired Wilcoxon 0.001180 0.000356              True
+              relative_nre            Relative error             Nontrivial symmetry       binary             56            NaN           NaN                     NaN                       NaN         NaN       0.357143      0.357143         0.000000                     12.0                    12.0 1.000000 exact paired McNemar 1.000000 1.000000             False
+      residual_mahalanobis      Residual Mahalanobis               Hyperbolic volume   continuous             29      18.780186     19.779407               -0.999221                 -0.662865   -0.240811            NaN           NaN              NaN                      NaN                     NaN 0.131591      paired Wilcoxon 0.767642 1.000000             False
+      residual_mahalanobis      Residual Mahalanobis Census triangulation tetrahedra   continuous             29      20.448276     21.448276               -1.000000                 -1.000000   -0.232495            NaN           NaN              NaN                      NaN                     NaN 0.202986      paired Wilcoxon 0.841941 1.000000             False
+      residual_mahalanobis      Residual Mahalanobis             Nontrivial symmetry       binary             29            NaN           NaN                     NaN                       NaN         NaN       0.724138      0.413793         0.310345                     11.0                     2.0 0.022461 exact paired McNemar 0.223592 0.247070             False
+ residual_isolation_forest Residual isolation forest               Hyperbolic volume   continuous             24      19.624062     20.470274               -0.846212                 -0.215573   -0.314300            NaN           NaN              NaN                      NaN                     NaN 0.151501      paired Wilcoxon 0.767642 1.000000             False
+ residual_isolation_forest Residual isolation forest Census triangulation tetrahedra   continuous             24      21.333333     22.166667               -0.833333                  0.000000   -0.287428            NaN           NaN              NaN                      NaN                     NaN 0.154227      paired Wilcoxon 0.767642 1.000000             False
+ residual_isolation_forest Residual isolation forest             Nontrivial symmetry       binary             24            NaN           NaN                     NaN                       NaN         NaN       0.541667      0.291667         0.250000                      7.0                     1.0 0.070312 exact paired McNemar 0.569858 0.703125             False
+conditional_percentile_100    Conditional percentile               Hyperbolic volume   continuous             56      16.660561     18.037276               -1.376715                 -1.233883   -0.337341            NaN           NaN              NaN                      NaN                     NaN 0.013147      paired Wilcoxon 0.177778 0.170915             False
+conditional_percentile_100    Conditional percentile Census triangulation tetrahedra   continuous             56      18.250000     19.660714               -1.410714                 -1.000000   -0.341318            NaN           NaN              NaN                      NaN                     NaN 0.014287      paired Wilcoxon 0.177778 0.171444             False
+conditional_percentile_100    Conditional percentile             Nontrivial symmetry       binary             56            NaN           NaN                     NaN                       NaN         NaN       0.553571      0.357143         0.196429                     22.0                    11.0 0.080143 exact paired McNemar 0.569858 0.721290             False
+
+Saved Stage 25 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/25_score_matched_geometry
+
+
+<Figure size 640x480 with 0 Axes>

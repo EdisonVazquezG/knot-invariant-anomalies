@@ -1,0 +1,47 @@
+
+==============================================================================
+STAGE 34 COMPLETE
+==============================================================================
+
+Verified WKh >= 4 counts:
+              selection  selected_n  mean_stored_F_diagonal_count  n_WKh_ge_4  prop_WKh_ge_4  expected_n_WKh_ge_4_from_revision_letter  count_matches_expected
+    canonical_noKh_n220         220                      2.972727          48       0.218182                                        48                    True
+heldout_conditional_n31          31                      3.161290           9       0.290323                                         9                    True
+   heldout_relative_n31          31                      3.129032           5       0.161290                                         5                    True
+
+First threshold knots:
+          selection knot_id_base  stored_F_diagonal_count_WKh  stored_F_support_size  certified_Turaev_genus_lower_bound_if_convention_verified  certified_dealternating_number_lower_bound_if_convention_verified  almost_alternating_excluded_if_convention_verified
+canonical_noKh_n220     14n08362                          4.0                   31.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n08510                          4.0                   32.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n09742                          4.0                   31.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n19947                          4.0                   26.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n23835                          4.0                   29.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n24120                          4.0                   31.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n24763                          4.0                   21.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n24778                          4.0                   22.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n27179                          4.0                   27.0                                                          2                                                                  2                                                True
+canonical_noKh_n220     14n27214                          4.0                   27.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n012301                          4.0                   31.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n018579                          4.0                   33.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n026021                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n032227                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n038419                          4.0                   39.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n043686                          4.0                   26.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n048057                          4.0                   35.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n055602                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n080794                          4.0                   26.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n084090                          4.0                   32.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n084461                          4.0                   32.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n087652                          4.0                   31.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n087971                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n094893                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n107177                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n107223                          4.0                   34.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n115629                          4.0                   35.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n119483                          4.0                   30.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n122907                          4.0                   30.0                                                          2                                                                  2                                                True
+canonical_noKh_n220    15n140472                          4.0                   26.0                                                          2                                                                  2                                                True
+
+All three counts reproduce 48/220, 9/31, and 5/31.
+Topological implication remains explicitly conditional on verification of the stored F_ grading convention.
+Saved Stage 34 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/34_turaev_width_consequence_audit

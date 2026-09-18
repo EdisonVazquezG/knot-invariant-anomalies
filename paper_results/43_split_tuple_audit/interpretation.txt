@@ -1,0 +1,6 @@
+Counts concern identical inputs, not proof of label leakage or generalization failure.
+Read each cohort against its actual input_family (four_view_noKh, all_five, or its ablation).
+source_integer is before float32 rounding; pipeline_float32 includes that conversion.
+Neither tests near duplicates, shared mathematical structure, or additional equality after fitted scaling.
+No partition is changed. Complete group assignments are saved in all_tuple_group_memberships.npz.
+The summary ZIP omits the NPZ checkpoints; retain them in Drive.

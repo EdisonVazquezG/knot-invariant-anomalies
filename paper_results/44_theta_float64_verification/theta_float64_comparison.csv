@@ -1,0 +1,3 @@
+reference,new,intersection,union,jaccard,theta_score_spearman,aggregate_spearman,raw_sse_spearman,delta_mean_width,delta_ge4_prop,comparison_scope
+centered_only_stage41,centered_only_float64,31,31,1.0,0.9999870863869312,0.9999877441166994,0.9999999988900794,0.0,0.0,precision_only_recorded_packages
+historical_standardized,centered_only_float64,10,52,0.19230769230769232,0.44809386581426935,0.816642976299745,0.889340416729067,-0.8064516129032255,-0.22580645161290325,preprocessing_and_precision

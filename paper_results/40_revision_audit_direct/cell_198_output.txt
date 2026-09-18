@@ -1,0 +1,49 @@
+==============================================================================
+STAGE 37 — mirror-symmetrized score
+==============================================================================
+Theta mirror action (gated by Stage 31A): coefficient sign flip
+Frozen atlas: 313,230 knots; per-view tail 3,132
+Khovanov endpoints: khovanov_q_minus_2t_diagonal_count, khovanov_support_size
+Canonical no-Khovanov 3-of-4 selection: 220
+
+==============================================================================
+VIEW: Alexander | Alexander_upto17.csv
+==============================================================================
+[Alexander] action=unchanged  identical rows=100.0000%  rho(can,opp)=1.0000
+
+==============================================================================
+VIEW: Jones | Jones_upto17_MIRRORS.csv
+==============================================================================
+[Jones] action=archived_opposite_row  identical rows=0.4390%  rho(can,opp)=0.2871
+
+==============================================================================
+VIEW: HOMFLY-PT | HomflyPt_upto15_MIRRORS.csv
+==============================================================================
+[HOMFLY-PT] action=archived_opposite_row  identical rows=0.3719%  rho(can,opp)=0.2137
+
+==============================================================================
+VIEW: Theta | theta_upto15.csv
+==============================================================================
+[Theta] action=coefficient_sign_flip_stage31A_gate  identical rows=0.1133%  rho(can,opp)=0.4149
+
+Symmetrized 3-of-4 selection:            329
+Recomputed canonical (implementation):   221
+  agreement with frozen canonical 220:   Jaccard 0.9776
+
+Exact-symmetry assertion passed (max deviation 0).
+S_sym(K) = S_sym(Kbar) holds by construction, not by recovery rate.
+
+Per-view audit:
+     view                       mirror_action  k99  archived_opposite_missing  identical_representative_prop  spearman_can_vs_opp
+Alexander                           unchanged    4                          0                       1.000000             1.000000
+    Jones               archived_opposite_row   10                          0                       0.004390             0.287091
+HOMFLY-PT               archived_opposite_row   32                          0                       0.003719             0.213720
+    Theta coefficient_sign_flip_stage31A_gate   10                          0                       0.001133             0.414915
+
+Selection comparison:
+                selection   n  jaccard_with_frozen_canonical  frozen_canonical_recovered_prop  mean_W_F  P_W_F_ge3  P_W_F_ge4  mean_kh_support  alternating_prop
+    frozen_canonical_3of4 220                       1.000000                         1.000000  2.972727   0.754545   0.218182        31.031818          0.240909
+recomputed_canonical_3of4 221                       0.977578                         0.990909  2.972851   0.755656   0.217195        30.995475          0.239819
+  mirror_symmetrized_3of4 329                       0.297872                         0.572727  2.942249   0.844985   0.097264        31.148936          0.139818
+
+Saved Stage 37 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/37_mirror_symmetrized_score

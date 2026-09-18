@@ -1,0 +1,7 @@
+{
+  "expected_fibers": 159,
+  "expected_knots": 321,
+  "matches_stage33_counts": true,
+  "observed_fibers": 159,
+  "observed_knots": 321
+}

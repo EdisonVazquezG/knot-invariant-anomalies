@@ -1,0 +1,32 @@
+Size-matched references: all-five n=60; no-Khovanov n=31
+
+Primary size-matched comparison:
+        family                     method  n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_diagonal_ge_4_prop  crossing_15_prop  alternating_prop
+      All 5 C3                    raw_sse 60                25               0.960000      2.240000          2.516667               0.416667               0.100000          0.916667          0.583333
+      All 5 C3               relative_nre 60                60               0.483333      1.066667          3.183333               0.983333               0.200000          0.616667          0.000000
+      All 5 C3       residual_mahalanobis 60                23               0.869565      2.086957          2.416667               0.350000               0.066667          0.933333          0.616667
+      All 5 C3  residual_isolation_forest 60                19               0.894737      2.105263          2.366667               0.316667               0.050000          0.950000          0.683333
+      All 5 C3 conditional_percentile_100 60                51               0.745098      1.764706          3.000000               0.833333               0.166667          0.833333          0.150000
+No Khovanov C3                    raw_sse 31                13               1.000000      2.461538          2.548387               0.419355               0.129032          1.000000          0.580645
+No Khovanov C3               relative_nre 31                30               0.300000      0.733333          3.129032               0.967742               0.161290          0.612903          0.032258
+No Khovanov C3       residual_mahalanobis 31                12               0.916667      2.500000          2.483871               0.354839               0.129032          0.967742          0.612903
+No Khovanov C3  residual_isolation_forest 31                10               1.000000      2.600000          2.419355               0.322581               0.096774          0.967742          0.677419
+No Khovanov C3 conditional_percentile_100 31                28               0.785714      2.000000          3.161290               0.870968               0.290323          0.903226          0.096774
+
+Aggregate score--norm diagnostics:
+        family                     method  spearman_ck_mean_log_norm  spearman_ck_max_log_norm
+      All 5 C3                    raw_sse                   0.565606                  0.559605
+      All 5 C3               relative_nre                  -0.733104                 -0.503615
+      All 5 C3       residual_mahalanobis                   0.314721                  0.388652
+      All 5 C3  residual_isolation_forest                   0.754113                  0.717027
+      All 5 C3 conditional_percentile_100                   0.030920                  0.174564
+No Khovanov C3                    raw_sse                   0.609184                  0.517542
+No Khovanov C3               relative_nre                  -0.730171                 -0.603166
+No Khovanov C3       residual_mahalanobis                   0.346780                  0.310995
+No Khovanov C3  residual_isolation_forest                   0.792734                  0.735039
+No Khovanov C3 conditional_percentile_100                   0.123075                  0.157593
+
+Saved Stage 23B to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/23B_size_matched_score_sensitivity
+
+
+<Figure size 640x480 with 0 Axes>

@@ -1,0 +1,38 @@
+========================================================================================
+STAGE 31 — FRESH-RUNTIME DATA BOOTSTRAP
+========================================================================================
+Rebuilding the aligned in-memory dataset only.
+This does NOT rerun paper_run.ipynb, previous PCA stages, nulls, or AEs.
+DATA_DIR   = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants
+OUTPUT_DIR = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819
+Aligned universe ready: 313,230 knots.
+Views: Alexander, Jones, HOMFLY-PT, Theta, Khovanov
+Crossing split: train<=13=12,965, cal14=46,972, test15=253,293
+
+Crossing split:
+         split      n
+    train_le13  12965
+calibration_14  46972
+       test_15 253293
+
+Train-derived PCA / 15-crossing selection:
+invariant  input_dim  train_k99  train_evr  n_train  n_calibration  n_test  n_test_selected  test_selected_prop  spearman_test_percentile_vs_log_norm
+Alexander         17          4   0.997877    12965          46972  253293             6404            0.025283                              0.001698
+    Jones         51          9   0.994363    12965          46972  253293             2640            0.010423                             -0.241549
+HOMFLY-PT        152         26   0.992139    12965          46972  253293             8085            0.031920                              0.050825
+    Theta        841          9   0.992131    12965          46972  253293             8156            0.032200                              0.041940
+ Khovanov        373         56   0.990540    12965          46972  253293             1816            0.007170                             -0.240995
+
+15-crossing family phenotypes:
+            family   n  nonalternating_n  alternating_prop  P_Gdiff_gt0  mean_Gdiff  P_Gabsabs_gt0  mean_Gabsabs  mean_kh_diag  P_kh_diag_ge3  P_kh_diag_ge4  mean_kh_support
+          all5_ge3 300               166          0.446667     0.644578    1.361446       0.644578      1.361446      2.550000       0.506667       0.043333        30.066667
+no_khovanov_ge3of4 180                98          0.455556     0.693878    1.469388       0.693878      1.469388      2.522222       0.488889       0.033333        30.216667
+
+15-crossing fixed-selection null sensitivity:
+                             analysis        metric  observed  null_mean  empirical_p_upper  strata_n_strata  strata_median_cell  strata_q25_cell  strata_singleton_prop  strata_selected_fixed  strata_selected_movable
+all5_G_incidence_with_exact_thickness   P_Gdiff_gt0  0.644578   0.491458             0.0005              308                82.0             11.0               0.064935                      0                      300
+     all5_mean_G_with_exact_thickness    mean_Gdiff  1.361446   1.035373             0.0005              308                82.0             11.0               0.064935                      0                      300
+          noKh_external_mean_diagonal  mean_kh_diag  2.522222   2.320506             0.0005              192               135.5             13.0               0.057292                      0                      180
+             noKh_external_P_diag_ge3 P_kh_diag_ge3  0.488889   0.313914             0.0005              192               135.5             13.0               0.057292                      0                      180
+
+Saved Stage 31 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/31_crossing_number_extrapolation

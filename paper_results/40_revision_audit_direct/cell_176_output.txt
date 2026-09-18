@@ -1,0 +1,10 @@
+env: STAGE26_BOOTSTRAP_REPS=5000
+env: STAGE26_BOOTSTRAP_SEED=20261226
+Critical no-Khovanov bootstrap intervals:
+               metric  n_selected  observed  bootstrap_se    ci_low   ci_high
+     kh_diagonal_mean         220  2.972727      0.045849  2.881818  3.063636
+kh_diagonal_ge_3_prop         220  0.754545      0.028780  0.695455  0.813636
+kh_diagonal_ge_4_prop         220  0.218182      0.027887  0.163636  0.272727
+      kh_support_mean         220 31.031818      0.279579 30.481818 31.577273
+
+Saved Stage 26 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/26_bootstrap_confidence_intervals

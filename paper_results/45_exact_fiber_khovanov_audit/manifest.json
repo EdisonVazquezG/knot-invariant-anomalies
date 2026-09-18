@@ -1,0 +1,26 @@
+{
+  "chunk_rows": 4096,
+  "description": "Exact source tuples; rational/free homology modulo grading reflection; stored torsion diagnostic only",
+  "input_sha256": {
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Alexander_upto17.csv": "f7d1454e2812220cbd9c95ec348e5994be9805597baeb3d02d8826467e5ee550",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/HomflyPt_upto15_MIRRORS.csv": "bdbbf35a6907fbf17844f09f0b8d4f49ad67938f7a442adfbb0fb354f5978c80",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/Jones_upto17_MIRRORS.csv": "de491732167688e389c19a42211c3a9e6b5993197f11debd3498200d96a2dbe7",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/even_KH_upto17.pkl": "f1897500e52a499ee08f4404eecf99c0b569d65f1e7b2e0e286934536713d1a7",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/07_heldout_ae_target_free/scores/heldout_ae_seed_0.npz": "cacf3468f4f534ad9b68b043be3dfc46221b48ddcb5bcfc2d6beb32cbd87deed",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet": "ceba9050816909965c0665c421478987bfba992746f14c88adced3abf6390a89",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/20_mathematical_phenotype/complete_mathematical_phenotype_atlas.parquet": "5f7a0b603ab47c33ad1ba27cefa13255e87f7e88a4d955d55165e94781d3b984",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/33_view_ablation_and_fibers/exact_input_fiber_summary.csv": "d5f9d9847d851e05bfbfe67f3155ad0eba02e6fbaec32674659c9092bb28740b",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/43_split_tuple_audit/all_tuple_group_memberships.npz": "592eddbc96c4b7d7a48b6f7c34564d1e11c33d8978d47d57ca50264f268b750e",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/processed_consensus_hardness/corrected_run_20260819/43_split_tuple_audit/manifest.json": "b8c13b87cf1d5d316abea25b799b37d452a9919089fc746606e641405d3b31dd",
+    "/content/drive/.shortcut-targets-by-id/1WYTdWUFvMtWa4L0MZtyWplVkXxRMZGTO/Invariants/theta_upto15.csv": "bb3a2d92298ab42257a36e94abf78b9c8b50f90b3795e7a0717ddc13df592eeb",
+    "/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage43_split_tuple_audit.py": "0be264d8c3238254dc69f4f7d7bc997f6de636ba259f909c26c83fe4b4086ae7",
+    "/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage45_exact_fiber_khovanov_audit.py": "c8847d370d79047b19217e4a9488c571abc8f0f0030a033a6330567238b393ea"
+  },
+  "max_examples": 10,
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "python": "3.13.15",
+  "scope": "both",
+  "stage": 45,
+  "version": 1
+}

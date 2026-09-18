@@ -1,0 +1,26 @@
+Stage 32 sources:
+  canonical atlas: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet
+  Theta source:    /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/theta_upto15.csv
+  Khovanov source: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/even_KH_upto17.csv
+
+
+/content/drive/MyDrive/consensus_hardness_refactored/notebooks/stage32_representation_robustness_audits_v2.py:489: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  reservoir = pd.concat([reservoir, cand], ignore_index=True)
+
+
+
+Theta sparsity summary:
+                                                                      theta_source  n_rows_audited  canonical_id_rows_seen  n_theta_features_detected  expected_theta_features  dimension_matches_expected_841  overall_zero_fraction  n_never_nonzero_columns  fraction_never_nonzero_columns  n_zero_variance_columns  fraction_zero_variance_columns  median_nonzero_coords_per_row  q05_nonzero_coords_per_row  q95_nonzero_coords_per_row  median_coordinate_prevalence  q05_coordinate_prevalence  q95_coordinate_prevalence
+/content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/theta_upto15.csv          313230                  313230                        841                      841                            True               0.722868                      288                        0.342449                      288                        0.342449                          217.0                       127.0                       331.0                      0.026323                        0.0                   0.997187
+
+Khovanov stored-family counts:
+family  n_coordinates
+    F_            373
+   T2_            337
+   T4_             16
+
+Khovanov width concordance summary:
+                                                                     khovanov_source  source_rows_seen  canonical_id_rows_seen  sample_n  n_F_coordinates  n_T2_coordinates  n_T4_coordinates  exact_width_agreement_fraction  spearman_F_vs_full_stored_width  mean_F_only_width  mean_full_stored_width  mean_full_minus_F  fraction_full_width_larger  max_full_minus_F
+/content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/even_KH_upto17.csv           9755329                  313230    313230              373               337                16                        0.999955                         0.999876           2.214478                2.214523           0.000045                    0.000045                 1
+
+Saved Stage 32 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/32_representation_robustness_audits

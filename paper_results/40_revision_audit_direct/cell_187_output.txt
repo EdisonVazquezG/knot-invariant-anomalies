@@ -1,0 +1,23 @@
+Archived theta coordinates: 841
+First theta columns: ['T1-14_T2-14', 'T1-14_T2-13', 'T1-14_T2-12', 'T1-14_T2-11', 'T1-14_T2-10', 'T1-14_T2-9', 'T1-14_T2-8', 'T1-14_T2-7']
+Fetching independent Theta Sage sources...
+Local Sage unavailable. Bootstrapping SageMath from conda-forge...
+Downloading micromamba...
+Creating isolated SageMath environment. This is a large one-time download and may take several minutes...
+
+Independent small-knot mirror audit:
+knot  mirror_operator_involution_ok  theta_mirror_equals_negative_theta  theta_mirror_equals_theta
+ 3_1                           True                                True                      False
+ 5_1                           True                                True                      False
+ 5_2                           True                                True                      False
+ 6_1                           True                                True                      False
+ 6_2                           True                                True                      False
+ 7_1                           True                                True                      False
+ 7_2                           True                                True                      False
+8_17                           True                                True                       True
+
+Gate status: EMPIRICALLY_VERIFIED_ON_TESTED_SMALL_KNOTS
+Downstream theta action: coefficient_sign_flip
+Backend: local_sage_condaforge
+
+Saved Stage 31A v4 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/31A_theta_mirror_action_audit

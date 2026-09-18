@@ -1,0 +1,10 @@
+{
+  "all_test_residuals_finite": true,
+  "evr": 0.9999932235099503,
+  "evr_excess_above_one": 0.0,
+  "evr_within_unit_interval_tolerance": true,
+  "fit_dtype": "float64",
+  "note": "Numerical checks do not by themselves establish selection stability; inspect the comparison table.",
+  "stage41_environment_matches": true,
+  "tolerance": 1e-12
+}

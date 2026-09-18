@@ -1,0 +1,6 @@
+view,rows,features,source_non_numeric_or_missing_entries_filled_zero,representative_rule,source_integer_hash_collision_buckets_resolved,source_integer_unique_tuples,pipeline_float32_hash_collision_buckets_resolved,pipeline_float32_unique_tuples,float32_added_collisions
+Alexander,313230,17,0,"nonnegative signature, then unmarked identifier",0,76904,0,76904,0
+Jones,313230,51,0,"nonnegative signature, then unmarked identifier",0,149227,0,149227,0
+HOMFLY-PT,313230,152,0,"nonnegative signature, then unmarked identifier",0,225449,0,225449,0
+Theta,313230,841,0,"nonnegative signature, then unmarked identifier",0,306181,0,306181,0
+Khovanov,313230,373,0,"nonnegative signature, then unmarked identifier",0,185947,0,185947,0

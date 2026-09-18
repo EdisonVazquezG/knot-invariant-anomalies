@@ -1,0 +1,21 @@
+Stage 28: rebuilding the aligned in-memory dataset only.
+This does NOT rerun PCA, nulls, autoencoders, or paper results.
+DATA_DIR   = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants
+OUTPUT_DIR = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819
+
+Definition/provenance audit:
+              item      status                                                                                           result
+          P4 Theta        PASS Theta matrix contains only T-prefixed theta coordinates and no Alexander A-prefixed coordinates.
+P6 sign convention        PASS                                                     sign mismatches=0; G-definition mismatches=0
+       P8 Khovanov PASS_SCHEMA   373/373 loaded coordinates are F_q*_t*. Current diagonal count therefore uses F_ support only.
+       P9 universe        PASS                                                                   N=313230; unknot present=False
+    P12 dimensions        PASS                                   Alexander=17, Jones=51, HOMFLY-PT=152, Theta=841, Khovanov=373
+
+P6:
+ n_total  n_finite_s_sigma  n_both_nonzero  n_same_sign_when_nonzero  n_sign_mismatch_when_nonzero  n_G_definitions_differ  all_nonzero_same_sign  G_abs_difference_equals_abs_abs_everywhere  alternating_n  alternating_s_equals_sigma  alternating_s_equals_minus_sigma  alternating_abs_s_equals_abs_sigma
+  313230            313230          226409                    226409                             0                       0                   True                                        True         111528                      111528                             28785                              111528
+
+P8 source coordinate families (if aligned_tables was available):
+{'F_': 373, 'T2_': 337, 'T4_': 16}
+
+Saved Stage 28 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/28_definition_provenance_audit

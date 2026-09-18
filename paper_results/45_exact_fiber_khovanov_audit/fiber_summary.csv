@@ -1,0 +1,5 @@
+scope,input_family,population_n,n_nontrivial_fibers,n_knots_in_nontrivial_fibers,n_pairs,width_diff_pairs,width_diff_fibers,F_diff_mod_reflection_pairs,F_diff_mod_reflection_fibers,F_reflection_only_pairs,F_reflection_only_fibers,stored_torsion_direct_diff_pairs,stored_torsion_direct_diff_fibers
+test,HOMFLY_PT_plus_Theta,46985,159,321,165,0,0,0,0,0,0,0,0
+test,four_view_noKh,46985,159,321,165,0,0,0,0,0,0,0,0
+atlas,HOMFLY_PT_plus_Theta,313230,6042,12605,7319,2,2,12,8,1,1,13,9
+atlas,four_view_noKh,313230,6042,12605,7319,2,2,12,8,1,1,13,9

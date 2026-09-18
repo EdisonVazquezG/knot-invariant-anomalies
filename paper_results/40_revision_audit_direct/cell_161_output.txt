@@ -1,0 +1,37 @@
+Loading final atlas: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/17_final_paper_outputs/final_hard_regime_atlas.parquet
+
+
+           kind                                             file   bytes
+0        figure                 figure1_two_hardness_regimes.pdf   31094
+1        figure                 figure1_two_hardness_regimes.png  390388
+2        figure              figure2_mirror_randomized_nulls.pdf   32194
+3        figure              figure2_mirror_randomized_nulls.png  292381
+4        figure       figure3_conditional_heldout_validation.pdf   28203
+5        figure       figure3_conditional_heldout_validation.png  403798
+6        figure          figure4_external_khovanov_thickness.pdf   27492
+7        figure          figure4_external_khovanov_thickness.png  324744
+8        figure           figure5_geometric_characterization.pdf   41178
+9        figure           figure5_geometric_characterization.png  715421
+10        table       table1_representation_pca_design_paper.tex     609
+11        table             table2_hard_regime_summary_paper.tex     772
+12        table         table3_mirror_randomized_nulls_paper.tex    1154
+13        table  table4_conditional_heldout_validation_paper.tex    1065
+14        table     table5_external_khovanov_thickness_paper.tex    1068
+15        table     table6_matched_geometric_inference_paper.tex    1135
+16  source_data       figure1_and_table2_hard_regime_summary.csv     731
+17  source_data              figure2_mirror_randomized_nulls.csv    8135
+18  source_data                     figure3_heldout_overlaps.csv    1525
+19  source_data                    figure3_heldout_phenotype.csv     727
+20  source_data                    figure3_heldout_set_sizes.csv     366
+21  source_data          figure4_external_khovanov_thickness.csv    6258
+22  source_data               table3_mirror_randomized_nulls.csv    1482
+23  source_data           table5_external_khovanov_thickness.csv    1475
+
+
+Final MLST artifacts saved to:
+/content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/21_final_mlst_artifacts
+
+Copy manuscript_v0_4.tex into this folder and compile with figures/ and tables/.
+
+
+<Figure size 768x576 with 0 Axes>

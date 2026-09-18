@@ -1,0 +1,20 @@
+
+1% boundary audit:
+   score_family invariant      n  selected_k    cutoff  n_strictly_above_cutoff  boundary_tie_size  slots_taken_from_boundary_tie  selected_from_boundary_tie  unselected_in_boundary_tie  boundary_is_ambiguous  stable_id_tie_rule_verified
+        raw_sse Alexander 313230        3133  0.633800                     3130                  3                              3                           3                           0                  False                         True
+conditional_100 Alexander 313230        3133  0.990149                     3128                  6                              5                           5                           1                   True                         True
+        raw_sse     Jones 313230        3133  3.076255                     3132                  1                              1                           1                           0                  False                         True
+conditional_100     Jones 313230        3133  0.990112                     3131                  2                              2                           2                           0                  False                         True
+        raw_sse HOMFLY-PT 313230        3133  7.429819                     3131                  2                              2                           2                           0                  False                         True
+conditional_100 HOMFLY-PT 313230        3133  0.990105                     3120                 20                             13                          13                           7                   True                         True
+        raw_sse     Theta 313230        3133 74.802345                     3132                  1                              1                           1                           0                  False                         True
+conditional_100     Theta 313230        3133  0.990102                     3131                 64                              2                           2                          62                   True                         True
+        raw_sse  Khovanov 313230        3133 28.402433                     3132                  1                              1                           1                           0                  False                         True
+conditional_100  Khovanov 313230        3133  0.990105                     3124                 20                              9                           9                          11                   True                         True
+
+Randomized-boundary sensitivity:
+            family  n_min  n_median  n_max  jaccard_q025  jaccard_median  jaccard_q975  alt_prop_q025  alt_prop_q975  kh3_q025  kh3_q975  Ginc_q025  Ginc_q975
+          all5_ge3    413     413.0    416      0.992771        0.995169           1.0       0.180723       0.181598  0.808717  0.809639   0.766962   0.769912
+no_khovanov_ge3of4    220     221.0    222      0.990991        0.995475           1.0       0.238739       0.240909  0.754545  0.756757   0.863095   0.868263
+
+Saved Stage 30 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/30_tie_boundary_audit

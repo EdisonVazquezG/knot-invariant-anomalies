@@ -1,0 +1,293 @@
+==============================================================================
+STAGE 38 — auxiliary residual-compression sensitivity
+==============================================================================
+Sweep: ['32', '64', '128', 'none']  frozen default: 64
+
+----------------------------------------------------------------------
+--- residual_dim = 32  ->  /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32
+----------------------------------------------------------------------
+Rebuilding frozen aligned matrices from source files...
+Frozen split: train=219,261, val=46,984, test=46,985; per-view test tail=470
+[Alexander] fitting train-only PCA k=4, shape=(313230, 17)
+[Alexander] saved Alexander_test_scores.npz
+[Jones] fitting train-only PCA k=10, shape=(313230, 51)
+[Jones] saved Jones_test_scores.npz
+[HOMFLY-PT] fitting train-only PCA k=32, shape=(313230, 152)
+[HOMFLY-PT] saved HOMFLY_PT_test_scores.npz
+[Theta] fitting train-only PCA k=10, shape=(313230, 841)
+[Theta] saved Theta_test_scores.npz
+[Khovanov] fitting train-only PCA k=77, shape=(313230, 373)
+[Khovanov] saved Khovanov_test_scores.npz
+
+Score--norm diagnostics:
+                    method invariant  n_selected  spearman_score_log_norm  score_median  score_q99
+                   raw_sse Alexander         470                 0.066276      0.023223   0.588129
+                   raw_sse     Jones         470                 0.584549      0.100254   2.877439
+                   raw_sse HOMFLY-PT         470                 0.165846      0.346014   6.845483
+                   raw_sse     Theta         470                 0.923547      0.045761  71.682929
+                   raw_sse  Khovanov         470                 0.388019      0.740237  26.606958
+              relative_nre Alexander         470                -0.734850      0.008014   0.506777
+              relative_nre     Jones         470                -0.665383      0.013469   0.229696
+              relative_nre HOMFLY-PT         470                -0.781567      0.024896   0.264495
+              relative_nre     Theta         470                -0.587529      0.021462   0.214233
+              relative_nre  Khovanov         470                -0.578477      0.012535   0.163521
+      residual_mahalanobis Alexander         470                -0.002391      1.618225  23.610246
+      residual_mahalanobis     Jones         470                 0.236510     10.489049 145.499442
+      residual_mahalanobis HOMFLY-PT         470                -0.020775     15.510950 246.678986
+      residual_mahalanobis     Theta         470                 0.857738      1.465645 493.866599
+      residual_mahalanobis  Khovanov         470                 0.337200      8.617338 281.374281
+ residual_isolation_forest Alexander         470                 0.567844      0.461419   0.641311
+ residual_isolation_forest     Jones         470                 0.749911      0.341426   0.522541
+ residual_isolation_forest HOMFLY-PT         470                 0.154285      0.341048   0.504240
+ residual_isolation_forest     Theta         470                 0.880084      0.305150   0.517797
+ residual_isolation_forest  Khovanov         470                 0.334145      0.319603   0.495250
+conditional_percentile_100 Alexander         470                -0.017632      0.500000   0.987288
+conditional_percentile_100     Jones         470                -0.003028      0.495763   0.989384
+conditional_percentile_100 HOMFLY-PT         470                 0.005308      0.501062   0.989362
+conditional_percentile_100     Theta         470                -0.000650      0.493617   0.987261
+conditional_percentile_100  Khovanov         470                 0.004586      0.503185   0.989362
+
+External phenotype summary:
+                    method              method_label                  family   n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  abs_gap_ge_4_prop  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_support_mean  crossing_15_prop  alternating_prop
+                   raw_sse                   Raw SSE             All 5 >=3/5 263               102               0.696078      1.509804           0.058824          2.349810               0.319392        29.988593          0.942966          0.612167
+                   raw_sse                   Raw SSE       No Khovanov >=3/4 220                69               0.739130      1.623188           0.072464          2.290909               0.259091        30.154545          0.936364          0.686364
+                   raw_sse                   Raw SSE Original raw strict 5/5  39                16               1.000000      2.250000           0.125000          2.461538               0.410256        30.692308          1.000000          0.589744
+              relative_nre            Relative error             All 5 >=3/5  18                18               0.333333      0.888889           0.111111          3.388889               0.944444        29.777778          0.444444          0.000000
+              relative_nre            Relative error       No Khovanov >=3/4   5                 5               0.600000      1.600000           0.200000          3.600000               1.000000        31.400000          0.600000          0.000000
+      residual_mahalanobis      Residual Mahalanobis             All 5 >=3/5 317               125               0.616000      1.328000           0.048000          2.321767               0.293375        29.779180          0.965300          0.605678
+      residual_mahalanobis      Residual Mahalanobis       No Khovanov >=3/4 269                96               0.593750      1.291667           0.052083          2.275093               0.249071        29.661710          0.966543          0.643123
+ residual_isolation_forest Residual Isolation Forest             All 5 >=3/5 211                79               0.835443      1.822785           0.075949          2.398104               0.360190        30.587678          0.971564          0.625592
+ residual_isolation_forest Residual Isolation Forest       No Khovanov >=3/4 129                36               0.972222      2.166667           0.111111          2.325581               0.279070        30.372093          0.984496          0.720930
+conditional_percentile_100    Conditional percentile             All 5 >=3/5  60                52               0.730769      1.730769           0.134615          3.016667               0.850000        30.133333          0.816667          0.133333
+conditional_percentile_100    Conditional percentile       No Khovanov >=3/4  31                28               0.785714      2.000000           0.214286          3.161290               0.870968        31.129032          0.903226          0.096774
+
+Saved Stage 23 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32
+[stage38] realised residual dimensions: {'Alexander': 13, 'HOMFLY_PT': 32, 'Jones': 32, 'Khovanov': 32, 'Theta': 32}
+
+----------------------------------------------------------------------
+--- residual_dim = 64  ->  /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64
+----------------------------------------------------------------------
+Using meta and X_dict from current runtime.
+Frozen split: train=219,261, val=46,984, test=46,985; per-view test tail=470
+[Alexander] fitting train-only PCA k=4, shape=(313230, 17)
+[Alexander] saved Alexander_test_scores.npz
+[Jones] fitting train-only PCA k=10, shape=(313230, 51)
+[Jones] saved Jones_test_scores.npz
+[HOMFLY-PT] fitting train-only PCA k=32, shape=(313230, 152)
+[HOMFLY-PT] saved HOMFLY_PT_test_scores.npz
+[Theta] fitting train-only PCA k=10, shape=(313230, 841)
+[Theta] saved Theta_test_scores.npz
+[Khovanov] fitting train-only PCA k=77, shape=(313230, 373)
+[Khovanov] saved Khovanov_test_scores.npz
+
+Score--norm diagnostics:
+                    method invariant  n_selected  spearman_score_log_norm  score_median  score_q99
+                   raw_sse Alexander         470                 0.066276      0.023223   0.588129
+                   raw_sse     Jones         470                 0.584549      0.100254   2.877439
+                   raw_sse HOMFLY-PT         470                 0.165846      0.346014   6.845483
+                   raw_sse     Theta         470                 0.923547      0.045761  71.682929
+                   raw_sse  Khovanov         470                 0.388019      0.740237  26.606958
+              relative_nre Alexander         470                -0.734850      0.008014   0.506777
+              relative_nre     Jones         470                -0.665383      0.013469   0.229696
+              relative_nre HOMFLY-PT         470                -0.781567      0.024896   0.264495
+              relative_nre     Theta         470                -0.587529      0.021462   0.214233
+              relative_nre  Khovanov         470                -0.578477      0.012535   0.163521
+      residual_mahalanobis Alexander         470                -0.002391      1.618225  23.610246
+      residual_mahalanobis     Jones         470                 0.236476     10.488113 145.506203
+      residual_mahalanobis HOMFLY-PT         470                -0.001848     15.627013 246.900115
+      residual_mahalanobis     Theta         470                 0.755823      3.600684 570.954101
+      residual_mahalanobis  Khovanov         470                 0.295956     22.074108 520.870671
+ residual_isolation_forest Alexander         470                 0.567844      0.461419   0.641311
+ residual_isolation_forest     Jones         470                 0.746720      0.338129   0.534206
+ residual_isolation_forest HOMFLY-PT         470                 0.692180      0.333046   0.507970
+ residual_isolation_forest     Theta         470                 0.842347      0.305720   0.517705
+ residual_isolation_forest  Khovanov         470                 0.292226      0.321785   0.483486
+conditional_percentile_100 Alexander         470                -0.017632      0.500000   0.987288
+conditional_percentile_100     Jones         470                -0.003028      0.495763   0.989384
+conditional_percentile_100 HOMFLY-PT         470                 0.005308      0.501062   0.989362
+conditional_percentile_100     Theta         470                -0.000650      0.493617   0.987261
+conditional_percentile_100  Khovanov         470                 0.004586      0.503185   0.989362
+
+External phenotype summary:
+                    method              method_label                  family   n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  abs_gap_ge_4_prop  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_support_mean  crossing_15_prop  alternating_prop
+                   raw_sse                   Raw SSE             All 5 >=3/5 263               102               0.696078      1.509804           0.058824          2.349810               0.319392        29.988593          0.942966          0.612167
+                   raw_sse                   Raw SSE       No Khovanov >=3/4 220                69               0.739130      1.623188           0.072464          2.290909               0.259091        30.154545          0.936364          0.686364
+                   raw_sse                   Raw SSE Original raw strict 5/5  39                16               1.000000      2.250000           0.125000          2.461538               0.410256        30.692308          1.000000          0.589744
+              relative_nre            Relative error             All 5 >=3/5  18                18               0.333333      0.888889           0.111111          3.388889               0.944444        29.777778          0.444444          0.000000
+              relative_nre            Relative error       No Khovanov >=3/4   5                 5               0.600000      1.600000           0.200000          3.600000               1.000000        31.400000          0.600000          0.000000
+      residual_mahalanobis      Residual Mahalanobis             All 5 >=3/5 334               139               0.611511      1.309353           0.043165          2.335329               0.308383        29.745509          0.952096          0.583832
+      residual_mahalanobis      Residual Mahalanobis       No Khovanov >=3/4 275                96               0.593750      1.291667           0.052083          2.265455               0.240000        29.625455          0.967273          0.650909
+ residual_isolation_forest Residual Isolation Forest             All 5 >=3/5 230               111               0.819820      1.747748           0.054054          2.478261               0.443478        30.626087          0.960870          0.517391
+ residual_isolation_forest Residual Isolation Forest       No Khovanov >=3/4 120                43               0.906977      2.000000           0.093023          2.408333               0.358333        30.341667          0.975000          0.641667
+conditional_percentile_100    Conditional percentile             All 5 >=3/5  60                52               0.730769      1.730769           0.134615          3.016667               0.850000        30.133333          0.816667          0.133333
+conditional_percentile_100    Conditional percentile       No Khovanov >=3/4  31                28               0.785714      2.000000           0.214286          3.161290               0.870968        31.129032          0.903226          0.096774
+
+Saved Stage 23 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64
+[stage38] realised residual dimensions: {'Alexander': 13, 'HOMFLY_PT': 64, 'Jones': 41, 'Khovanov': 64, 'Theta': 64}
+
+----------------------------------------------------------------------
+--- residual_dim = 128  ->  /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64/residual_dim_128
+----------------------------------------------------------------------
+Using meta and X_dict from current runtime.
+Frozen split: train=219,261, val=46,984, test=46,985; per-view test tail=470
+[Alexander] fitting train-only PCA k=4, shape=(313230, 17)
+[Alexander] saved Alexander_test_scores.npz
+[Jones] fitting train-only PCA k=10, shape=(313230, 51)
+[Jones] saved Jones_test_scores.npz
+[HOMFLY-PT] fitting train-only PCA k=32, shape=(313230, 152)
+[HOMFLY-PT] saved HOMFLY_PT_test_scores.npz
+[Theta] fitting train-only PCA k=10, shape=(313230, 841)
+[Theta] saved Theta_test_scores.npz
+[Khovanov] fitting train-only PCA k=77, shape=(313230, 373)
+[Khovanov] saved Khovanov_test_scores.npz
+
+Score--norm diagnostics:
+                    method invariant  n_selected  spearman_score_log_norm  score_median  score_q99
+                   raw_sse Alexander         470                 0.066276      0.023223   0.588129
+                   raw_sse     Jones         470                 0.584549      0.100254   2.877439
+                   raw_sse HOMFLY-PT         470                 0.165846      0.346014   6.845483
+                   raw_sse     Theta         470                 0.923547      0.045761  71.682929
+                   raw_sse  Khovanov         470                 0.388019      0.740237  26.606958
+              relative_nre Alexander         470                -0.734850      0.008014   0.506777
+              relative_nre     Jones         470                -0.665383      0.013469   0.229696
+              relative_nre HOMFLY-PT         470                -0.781567      0.024896   0.264495
+              relative_nre     Theta         470                -0.587529      0.021462   0.214233
+              relative_nre  Khovanov         470                -0.578477      0.012535   0.163521
+      residual_mahalanobis Alexander         470                -0.002391      1.618225  23.610246
+      residual_mahalanobis     Jones         470                 0.236476     10.488113 145.506203
+      residual_mahalanobis HOMFLY-PT         470                -0.001605     15.629668 246.908759
+      residual_mahalanobis     Theta         470                 0.755789      3.599576 570.696597
+      residual_mahalanobis  Khovanov         470                 0.264439     51.564807 968.637881
+ residual_isolation_forest Alexander         470                 0.567844      0.461419   0.641311
+ residual_isolation_forest     Jones         470                 0.746720      0.338129   0.534206
+ residual_isolation_forest HOMFLY-PT         470                 0.734663      0.324263   0.469475
+ residual_isolation_forest     Theta         470                 0.871794      0.302515   0.522960
+ residual_isolation_forest  Khovanov         470                 0.265754      0.322476   0.464098
+conditional_percentile_100 Alexander         470                -0.017632      0.500000   0.987288
+conditional_percentile_100     Jones         470                -0.003028      0.495763   0.989384
+conditional_percentile_100 HOMFLY-PT         470                 0.005308      0.501062   0.989362
+conditional_percentile_100     Theta         470                -0.000650      0.493617   0.987261
+conditional_percentile_100  Khovanov         470                 0.004586      0.503185   0.989362
+
+External phenotype summary:
+                    method              method_label                  family   n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  abs_gap_ge_4_prop  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_support_mean  crossing_15_prop  alternating_prop
+                   raw_sse                   Raw SSE             All 5 >=3/5 263               102               0.696078      1.509804           0.058824          2.349810               0.319392        29.988593          0.942966          0.612167
+                   raw_sse                   Raw SSE       No Khovanov >=3/4 220                69               0.739130      1.623188           0.072464          2.290909               0.259091        30.154545          0.936364          0.686364
+                   raw_sse                   Raw SSE Original raw strict 5/5  39                16               1.000000      2.250000           0.125000          2.461538               0.410256        30.692308          1.000000          0.589744
+              relative_nre            Relative error             All 5 >=3/5  18                18               0.333333      0.888889           0.111111          3.388889               0.944444        29.777778          0.444444          0.000000
+              relative_nre            Relative error       No Khovanov >=3/4   5                 5               0.600000      1.600000           0.200000          3.600000               1.000000        31.400000          0.600000          0.000000
+      residual_mahalanobis      Residual Mahalanobis             All 5 >=3/5 330               144               0.625000      1.333333           0.041667          2.354545               0.327273        29.690909          0.948485          0.563636
+      residual_mahalanobis      Residual Mahalanobis       No Khovanov >=3/4 275                96               0.593750      1.291667           0.052083          2.265455               0.240000        29.625455          0.967273          0.650909
+ residual_isolation_forest Residual Isolation Forest             All 5 >=3/5 205                98               0.846939      1.816327           0.061224          2.473171               0.434146        30.526829          0.960976          0.521951
+ residual_isolation_forest Residual Isolation Forest       No Khovanov >=3/4 107                32               1.000000      2.250000           0.125000          2.355140               0.299065        29.915888          0.981308          0.700935
+conditional_percentile_100    Conditional percentile             All 5 >=3/5  60                52               0.730769      1.730769           0.134615          3.016667               0.850000        30.133333          0.816667          0.133333
+conditional_percentile_100    Conditional percentile       No Khovanov >=3/4  31                28               0.785714      2.000000           0.214286          3.161290               0.870968        31.129032          0.903226          0.096774
+
+Saved Stage 23 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64/residual_dim_128
+[stage38] realised residual dimensions: {'Alexander': 13, 'HOMFLY_PT': 120, 'Jones': 41, 'Khovanov': 128, 'Theta': 128}
+
+----------------------------------------------------------------------
+--- residual_dim = none  ->  /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64/residual_dim_128/residual_dim_none
+----------------------------------------------------------------------
+Using meta and X_dict from current runtime.
+Frozen split: train=219,261, val=46,984, test=46,985; per-view test tail=470
+[Alexander] fitting train-only PCA k=4, shape=(313230, 17)
+[Alexander] saved Alexander_test_scores.npz
+[Jones] fitting train-only PCA k=10, shape=(313230, 51)
+[Jones] saved Jones_test_scores.npz
+[HOMFLY-PT] fitting train-only PCA k=32, shape=(313230, 152)
+[HOMFLY-PT] saved HOMFLY_PT_test_scores.npz
+[Theta] fitting train-only PCA k=10, shape=(313230, 841)
+[Theta] saved Theta_test_scores.npz
+[Khovanov] fitting train-only PCA k=77, shape=(313230, 373)
+[Khovanov] saved Khovanov_test_scores.npz
+
+Score--norm diagnostics:
+                    method invariant  n_selected  spearman_score_log_norm  score_median   score_q99
+                   raw_sse Alexander         470                 0.066276      0.023223    0.588129
+                   raw_sse     Jones         470                 0.584549      0.100254    2.877439
+                   raw_sse HOMFLY-PT         470                 0.165846      0.346014    6.845483
+                   raw_sse     Theta         470                 0.923547      0.045761   71.682929
+                   raw_sse  Khovanov         470                 0.388019      0.740237   26.606958
+              relative_nre Alexander         470                -0.734850      0.008014    0.506777
+              relative_nre     Jones         470                -0.665383      0.013469    0.229696
+              relative_nre HOMFLY-PT         470                -0.781567      0.024896    0.264495
+              relative_nre     Theta         470                -0.587529      0.021462    0.214233
+              relative_nre  Khovanov         470                -0.578477      0.012535    0.163521
+      residual_mahalanobis Alexander         470                -0.002391      1.618225   23.610246
+      residual_mahalanobis     Jones         470                 0.236476     10.488113  145.506203
+      residual_mahalanobis HOMFLY-PT         470                -0.001605     15.629668  246.908759
+      residual_mahalanobis     Theta         470                 0.755850      3.600002  570.831822
+      residual_mahalanobis  Khovanov         470                 0.297834     53.269684 1048.467981
+ residual_isolation_forest Alexander         470                 0.567844      0.461419    0.641311
+ residual_isolation_forest     Jones         470                 0.746720      0.338129    0.534206
+ residual_isolation_forest HOMFLY-PT         470                 0.734663      0.324263    0.469475
+ residual_isolation_forest     Theta         470                 0.878642      0.299494    0.393278
+ residual_isolation_forest  Khovanov         470                 0.816101      0.321184    0.482226
+conditional_percentile_100 Alexander         470                -0.017632      0.500000    0.987288
+conditional_percentile_100     Jones         470                -0.003028      0.495763    0.989384
+conditional_percentile_100 HOMFLY-PT         470                 0.005308      0.501062    0.989362
+conditional_percentile_100     Theta         470                -0.000650      0.493617    0.987261
+conditional_percentile_100  Khovanov         470                 0.004586      0.503185    0.989362
+
+External phenotype summary:
+                    method              method_label                  family   n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  abs_gap_ge_4_prop  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_support_mean  crossing_15_prop  alternating_prop
+                   raw_sse                   Raw SSE             All 5 >=3/5 263               102               0.696078      1.509804           0.058824          2.349810               0.319392        29.988593          0.942966          0.612167
+                   raw_sse                   Raw SSE       No Khovanov >=3/4 220                69               0.739130      1.623188           0.072464          2.290909               0.259091        30.154545          0.936364          0.686364
+                   raw_sse                   Raw SSE Original raw strict 5/5  39                16               1.000000      2.250000           0.125000          2.461538               0.410256        30.692308          1.000000          0.589744
+              relative_nre            Relative error             All 5 >=3/5  18                18               0.333333      0.888889           0.111111          3.388889               0.944444        29.777778          0.444444          0.000000
+              relative_nre            Relative error       No Khovanov >=3/4   5                 5               0.600000      1.600000           0.200000          3.600000               1.000000        31.400000          0.600000          0.000000
+      residual_mahalanobis      Residual Mahalanobis             All 5 >=3/5 328               141               0.624113      1.333333           0.042553          2.350610               0.323171        29.661585          0.948171          0.570122
+      residual_mahalanobis      Residual Mahalanobis       No Khovanov >=3/4 275                96               0.593750      1.291667           0.052083          2.265455               0.240000        29.625455          0.967273          0.650909
+ residual_isolation_forest Residual Isolation Forest             All 5 >=3/5 200                89               0.876404      1.887640           0.067416          2.460000               0.420000        30.440000          0.965000          0.555000
+ residual_isolation_forest Residual Isolation Forest       No Khovanov >=3/4 103                41               0.926829      2.048780           0.097561          2.446602               0.388350        30.339806          0.980583          0.601942
+conditional_percentile_100    Conditional percentile             All 5 >=3/5  60                52               0.730769      1.730769           0.134615          3.016667               0.850000        30.133333          0.816667          0.133333
+conditional_percentile_100    Conditional percentile       No Khovanov >=3/4  31                28               0.785714      2.000000           0.214286          3.161290               0.870968        31.129032          0.903226          0.096774
+
+Saved Stage 23 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64/residual_dim_128/residual_dim_none
+[stage38] realised residual dimensions: {'Alexander': 13, 'HOMFLY_PT': 120, 'Jones': 41, 'Khovanov': 296, 'Theta': 831}
+
+==============================================================================
+Key external phenotypes by residual dimension:
+                                            alternating_prop                               kh_diagonal_ge_3_prop                               kh_diagonal_mean                                    n                     
+residual_dim                                             128        32        64      none                   128        32        64      none              128        32        64      none    128     32     64   none
+method                    family                                                                                                                                                                                         
+residual_isolation_forest All 5 >=3/5               0.521951  0.625592  0.517391  0.555000              0.434146  0.360190  0.443478  0.420000         2.473171  2.398104  2.478261  2.460000  205.0  211.0  230.0  200.0
+                          No Khovanov >=3/4         0.700935  0.720930  0.641667  0.601942              0.299065  0.279070  0.358333  0.388350         2.355140  2.325581  2.408333  2.446602  107.0  129.0  120.0  103.0
+residual_mahalanobis      All 5 >=3/5               0.563636  0.605678  0.583832  0.570122              0.327273  0.293375  0.308383  0.323171         2.354545  2.321767  2.335329  2.350610  330.0  317.0  334.0  328.0
+                          No Khovanov >=3/4         0.650909  0.643123  0.650909  0.650909              0.240000  0.249071  0.240000  0.240000         2.265455  2.275093  2.265455  2.265455  275.0  269.0  275.0  275.0
+
+Membership Jaccard across dimensions (affected scores):
+                   method            family dim_a dim_b  n_a  n_b  n_shared  jaccard
+residual_isolation_forest       All 5 >=3/5    32    64  211  230       163 0.586331
+residual_isolation_forest       All 5 >=3/5    32   128  211  205       140 0.507246
+residual_isolation_forest       All 5 >=3/5    32  none  211  200       139 0.511029
+residual_isolation_forest       All 5 >=3/5    64   128  230  205       179 0.699219
+residual_isolation_forest       All 5 >=3/5    64  none  230  200       169 0.647510
+residual_isolation_forest       All 5 >=3/5   128  none  205  200       167 0.701681
+residual_isolation_forest No Khovanov >=3/4    32    64  129  120        87 0.537037
+residual_isolation_forest No Khovanov >=3/4    32   128  129  107        76 0.475000
+residual_isolation_forest No Khovanov >=3/4    32  none  129  103        75 0.477707
+residual_isolation_forest No Khovanov >=3/4    64   128  120  107        94 0.706767
+residual_isolation_forest No Khovanov >=3/4    64  none  120  103        93 0.715385
+residual_isolation_forest No Khovanov >=3/4   128  none  107  103        91 0.764706
+     residual_mahalanobis       All 5 >=3/5    32    64  317  334       308 0.897959
+     residual_mahalanobis       All 5 >=3/5    32   128  317  330       300 0.864553
+     residual_mahalanobis       All 5 >=3/5    32  none  317  328       298 0.858790
+     residual_mahalanobis       All 5 >=3/5    64   128  334  330       319 0.924638
+     residual_mahalanobis       All 5 >=3/5    64  none  334  328       318 0.924419
+     residual_mahalanobis       All 5 >=3/5   128  none  330  328       327 0.987915
+     residual_mahalanobis No Khovanov >=3/4    32    64  269  275       268 0.971014
+     residual_mahalanobis No Khovanov >=3/4    32   128  269  275       268 0.971014
+     residual_mahalanobis No Khovanov >=3/4    32  none  269  275       268 0.971014
+     residual_mahalanobis No Khovanov >=3/4    64   128  275  275       275 1.000000
+     residual_mahalanobis No Khovanov >=3/4    64  none  275  275       275 1.000000
+     residual_mahalanobis No Khovanov >=3/4   128  none  275  275       275 1.000000
+
+Max |change| for scores using the projection: 32
+Max |change| for control scores (must be 0):  0
+
+Saved Stage 38 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/38_residual_compression_sensitivity/residual_dim_32/residual_dim_64/residual_dim_128/residual_dim_none
+
+
+<Figure size 640x480 with 0 Axes>

@@ -1,0 +1,12 @@
+Stage 45 searches exact input fibers; no models are trained and no new holdout is created.
+Test and full-atlas scopes are descriptive and must be reported separately.
+width_diff: different occupied free-part q-2t diagonal counts, checked against the frozen endpoint.
+F_diff_mod_reflection: free-rank vectors differ even after simultaneous q,t sign reversal.
+F_reflection_only: direct difference removed by grading reflection; not evidence of different mirror-independent homology.
+stored_torsion_direct_diff: raw archived T2_/T4_ difference ONLY; no integral mirror normalization or completeness claim.
+The four_view_noKh rows certify equality of all four actual source inputs, not an assumed specialization relation.
+A verified pair with identical inputs and different width rules out perfect deterministic width recovery for both inputs.
+Archive candidates are not independently recomputed knot invariants and are not automatically novel results.
+If no discordance is found, report absence in these fibers only, not a general determination theorem.
+Examples prioritize width, then free-homology discordance, then actual four-view equality; all pair counts are retained.
+The review ZIP omits the local NPZ coefficient checkpoint; retain it in Drive.

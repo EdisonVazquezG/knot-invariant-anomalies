@@ -1,0 +1,54 @@
+Rebuilding frozen aligned matrices from source files...
+Frozen split: train=219,261, val=46,984, test=46,985; per-view test tail=470
+[Alexander] loading score checkpoint
+[Jones] loading score checkpoint
+[HOMFLY-PT] loading score checkpoint
+[Theta] loading score checkpoint
+[Khovanov] loading score checkpoint
+
+Score--norm diagnostics:
+                    method invariant  n_selected  spearman_score_log_norm  score_median  score_q99
+                   raw_sse Alexander         470                 0.066276      0.023223   0.588130
+                   raw_sse     Jones         470                 0.584549      0.100254   2.877437
+                   raw_sse HOMFLY-PT         470                 0.165846      0.346014   6.845500
+                   raw_sse     Theta         470                 0.923547      0.045761  71.682902
+                   raw_sse  Khovanov         470                 0.388019      0.740238  26.606944
+              relative_nre Alexander         470                -0.734850      0.008014   0.506778
+              relative_nre     Jones         470                -0.665383      0.013469   0.229696
+              relative_nre HOMFLY-PT         470                -0.781567      0.024896   0.264495
+              relative_nre     Theta         470                -0.587528      0.021462   0.214233
+              relative_nre  Khovanov         470                -0.578477      0.012535   0.163521
+      residual_mahalanobis Alexander         470                -0.030372      1.586260  23.598517
+      residual_mahalanobis     Jones         470                 0.236065     10.487434 145.477847
+      residual_mahalanobis HOMFLY-PT         470                 0.008975     15.704812 248.370202
+      residual_mahalanobis     Theta         470                 0.753132      3.595341 564.547956
+      residual_mahalanobis  Khovanov         470                 0.295956     22.074109 520.869305
+ residual_isolation_forest Alexander         470                 0.652820      0.446574   0.643462
+ residual_isolation_forest     Jones         470                 0.771606      0.343358   0.563720
+ residual_isolation_forest HOMFLY-PT         470                 0.706715      0.332388   0.496902
+ residual_isolation_forest     Theta         470                 0.851988      0.305760   0.525206
+ residual_isolation_forest  Khovanov         470                 0.292858      0.321462   0.482874
+conditional_percentile_100 Alexander         470                -0.017632      0.500000   0.987288
+conditional_percentile_100     Jones         470                -0.003034      0.495763   0.989384
+conditional_percentile_100 HOMFLY-PT         470                 0.005291      0.501062   0.989362
+conditional_percentile_100     Theta         470                -0.000875      0.493617   0.987261
+conditional_percentile_100  Khovanov         470                 0.004404      0.503185   0.989362
+
+External phenotype summary:
+                    method              method_label                  family   n  nonalternating_n  abs_gap_positive_prop  mean_abs_gap  abs_gap_ge_4_prop  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_support_mean  crossing_15_prop  alternating_prop
+                   raw_sse                   Raw SSE             All 5 >=3/5 263               102               0.696078      1.509804           0.058824          2.349810               0.319392        29.988593          0.942966          0.612167
+                   raw_sse                   Raw SSE       No Khovanov >=3/4 220                69               0.739130      1.623188           0.072464          2.290909               0.259091        30.154545          0.936364          0.686364
+                   raw_sse                   Raw SSE Original raw strict 5/5  39                16               1.000000      2.250000           0.125000          2.461538               0.410256        30.692308          1.000000          0.589744
+              relative_nre            Relative error             All 5 >=3/5  18                18               0.333333      0.888889           0.111111          3.388889               0.944444        29.777778          0.444444          0.000000
+              relative_nre            Relative error       No Khovanov >=3/4   5                 5               0.600000      1.600000           0.200000          3.600000               1.000000        31.400000          0.600000          0.000000
+      residual_mahalanobis      Residual Mahalanobis             All 5 >=3/5 333               139               0.618705      1.323741           0.043165          2.336336               0.309309        29.759760          0.954955          0.582583
+      residual_mahalanobis      Residual Mahalanobis       No Khovanov >=3/4 271                97               0.608247      1.319588           0.051546          2.273063               0.247232        29.667897          0.970480          0.642066
+ residual_isolation_forest Residual Isolation Forest             All 5 >=3/5 213                90               0.866667      1.844444           0.055556          2.427230               0.399061        30.568075          0.967136          0.577465
+ residual_isolation_forest Residual Isolation Forest       No Khovanov >=3/4 122                40               0.975000      2.150000           0.100000          2.368852               0.327869        30.303279          0.975410          0.672131
+conditional_percentile_100    Conditional percentile             All 5 >=3/5  60                52               0.730769      1.730769           0.134615          3.016667               0.850000        30.133333          0.816667          0.133333
+conditional_percentile_100    Conditional percentile       No Khovanov >=3/4  31                28               0.785714      2.000000           0.214286          3.161290               0.870968        31.129032          0.903226          0.096774
+
+Saved Stage 23 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/23_anomaly_score_baselines
+
+
+<Figure size 640x480 with 0 Axes>

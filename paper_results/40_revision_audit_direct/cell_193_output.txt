@@ -1,0 +1,58 @@
+
+Extracting source coefficients for the best example...
+HomflyPt_upto15_MIRRORS.csv: scanned 600,000 rows
+
+========================================================================================
+STAGE 33B COMPLETE
+========================================================================================
+
+Top 10 ranked checked examples:
+ example_rank    knot_a    knot_b  same_HOMFLY_PT_exact  kh_diagonal_a  kh_diagonal_b  kh_diagonal_abs_difference  kh_support_a  kh_support_b  theta_percentile_a  theta_percentile_b  theta_percentile_abs_difference  four_view_aggregate_a  four_view_aggregate_b  four_view_aggregate_abs_difference  four_view_selected_a  four_view_selected_b  four_view_split_pair  pair_aggregate_a  pair_aggregate_b  pair_selected_a  pair_selected_b  alternating_a  alternating_b  crossing_a  crossing_b  Alexander_percentile_a  Alexander_percentile_b  Jones_percentile_a  Jones_percentile_b  HOMFLY_PT_percentile_a  HOMFLY_PT_percentile_b  Theta_percentile_a  Theta_percentile_b
+            1   13n0759 15n073293                  True            2.0            3.0                         1.0          22.0          28.0            0.959657            0.035256                         0.924401               0.226477               0.220581                            0.005895                 False                 False                 False          0.226477          0.035256            False            False              0              0          13          15                0.220581                0.220581            0.454581            0.454581                0.226477                0.226477            0.959657            0.035256
+            2   13n2434 15n103950                  True            2.0            3.0                         1.0          22.0          26.0            0.191199            0.963691                         0.772491               0.182558               0.182558                            0.000000                 False                 False                 False          0.046142          0.046142            False            False              0              0          13          15                0.182558                0.182558            0.367043            0.367043                0.046142                0.046142            0.191199            0.963691
+            3    12n777   13n2288                  True            2.0            3.0                         1.0          20.0          24.0            0.911333            0.249207                         0.662126               0.137831               0.137831                            0.000000                 False                 False                 False          0.063510          0.063510            False            False              0              0          12          13                0.137831                0.137831            0.529829            0.529829                0.063510                0.063510            0.911333            0.249207
+            4   13n0712 15n058753                  True            2.0            3.0                         1.0          22.0          24.0            0.103810            0.709578                         0.605768               0.169852               0.265670                            0.095818                 False                 False                 False          0.103810          0.169852            False            False              0              0          13          15                0.265670                0.265670            0.553081            0.553081                0.169852                0.169852            0.103810            0.709578
+            5 15n101713 15n007850                  True            2.0            3.0                         1.0          24.0          26.0            0.014366            0.602075                         0.587709               0.014568               0.285485                            0.270916                 False                 False                 False          0.014366          0.014568            False            False              0              0          15          15                0.285485                0.285485            0.699936            0.699936                0.014568                0.014568            0.014366            0.602075
+            6  14n18415 15n054287                  True            2.0            3.0                         1.0          24.0          27.0            0.086166            0.637650                         0.551485               0.235373               0.466734                            0.231361                 False                 False                 False          0.086166          0.235373            False            False              0              0          14          15                0.536469                0.536469            0.466734            0.466734                0.235373                0.235373            0.086166            0.637650
+            7   12a0401 15n000211                  True            2.0            3.0                         1.0          24.0          25.0            0.154070            0.669980                         0.515909               0.154070               0.364946                            0.210876                 False                 False                 False          0.154070          0.364946            False            False              1              0          12          15                0.657625                0.657625            0.143812            0.143812                0.364946                0.364946            0.154070            0.669980
+            8  14n14361 15n008597                  True            2.0            3.0                         1.0          21.0          31.0            0.205544            0.712855                         0.507311               0.412270               0.460126                            0.047856                 False                 False                 False          0.205544          0.649580            False            False              0              0          14          15                0.412270                0.412270            0.460126            0.460126                0.649580                0.649580            0.205544            0.712855
+            9 15n159057 15n049833                  True            2.0            3.0                         1.0          24.0          30.0            0.285112            0.764372                         0.479259               0.401415               0.563286                            0.161871                 False                 False                 False          0.285112          0.563286            False            False              0              0          15          15                0.623071                0.623071            0.401415            0.401415                0.563286                0.563286            0.285112            0.764372
+           10 15n103567 15n021419                  True            2.0            3.0                         1.0          24.0          25.0            0.063584            0.536522                         0.472938               0.422007               0.463510                            0.041503                 False                 False                 False          0.063584          0.422007            False            False              0              0          15          15                0.512110                0.512110            0.463510            0.463510                0.422007                0.422007            0.063584            0.536522
+
+Chosen example:
+example_rank                                  1
+knot_a                                  13n0759
+knot_b                                15n073293
+same_HOMFLY_PT_exact                       True
+kh_diagonal_a                               2.0
+kh_diagonal_b                               3.0
+kh_diagonal_abs_difference                  1.0
+kh_support_a                               22.0
+kh_support_b                               28.0
+theta_percentile_a                     0.959657
+theta_percentile_b                     0.035256
+theta_percentile_abs_difference        0.924401
+four_view_aggregate_a                  0.226477
+four_view_aggregate_b                  0.220581
+four_view_aggregate_abs_difference     0.005895
+four_view_selected_a                      False
+four_view_selected_b                      False
+four_view_split_pair                      False
+pair_aggregate_a                       0.226477
+pair_aggregate_b                       0.035256
+pair_selected_a                           False
+pair_selected_b                           False
+alternating_a                                 0
+alternating_b                                 0
+crossing_a                                   13
+crossing_b                                   15
+Alexander_percentile_a                 0.220581
+Alexander_percentile_b                 0.220581
+Jones_percentile_a                     0.454581
+Jones_percentile_b                     0.454581
+HOMFLY_PT_percentile_a                 0.226477
+HOMFLY_PT_percentile_b                 0.226477
+Theta_percentile_a                     0.959657
+Theta_percentile_b                     0.035256
+
+Saved source coefficients and paper table to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/33B_example_pair_extraction

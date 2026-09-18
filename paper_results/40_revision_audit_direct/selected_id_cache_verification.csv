@@ -1,0 +1,11 @@
+family,method,n_a,n_b,intersection,union,jaccard,identical
+All 5 C3,raw_sse,60,60,60,60,1.0,True
+All 5 C3,relative_nre,60,60,60,60,1.0,True
+All 5 C3,residual_mahalanobis,60,60,60,60,1.0,True
+All 5 C3,residual_isolation_forest,60,60,60,60,1.0,True
+All 5 C3,conditional_percentile_100,60,60,60,60,1.0,True
+No Khovanov C3,raw_sse,31,31,31,31,1.0,True
+No Khovanov C3,relative_nre,31,31,31,31,1.0,True
+No Khovanov C3,residual_mahalanobis,31,31,31,31,1.0,True
+No Khovanov C3,residual_isolation_forest,31,31,31,31,1.0,True
+No Khovanov C3,conditional_percentile_100,31,31,31,31,1.0,True

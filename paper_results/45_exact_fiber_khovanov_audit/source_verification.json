@@ -1,0 +1,50 @@
+{
+  "candidate_knots": 12605,
+  "free_groups_reproduced": true,
+  "independent_homology_recomputation": false,
+  "input_views": [
+    {
+      "features": 17,
+      "hash_collision_buckets_resolved": 0,
+      "representative_rule": "nonnegative signature, then unmarked identifier",
+      "rows": 12605,
+      "source_non_numeric_or_missing_entries_filled_zero": 0,
+      "stage43_partition_reproduced": true,
+      "view": "Alexander"
+    },
+    {
+      "features": 51,
+      "hash_collision_buckets_resolved": 0,
+      "representative_rule": "nonnegative signature, then unmarked identifier",
+      "rows": 12605,
+      "source_non_numeric_or_missing_entries_filled_zero": 0,
+      "stage43_partition_reproduced": true,
+      "view": "Jones"
+    },
+    {
+      "features": 152,
+      "hash_collision_buckets_resolved": 0,
+      "representative_rule": "nonnegative signature, then unmarked identifier",
+      "rows": 12605,
+      "source_non_numeric_or_missing_entries_filled_zero": 0,
+      "stage43_partition_reproduced": true,
+      "view": "HOMFLY-PT"
+    },
+    {
+      "features": 841,
+      "hash_collision_buckets_resolved": 0,
+      "representative_rule": "nonnegative signature, then unmarked identifier",
+      "rows": 12605,
+      "source_non_numeric_or_missing_entries_filled_zero": 0,
+      "stage43_partition_reproduced": true,
+      "view": "Theta"
+    }
+  ],
+  "representation_rule": "nonnegative signature, then unmarked ID",
+  "torsion_families": [
+    "T2",
+    "T4"
+  ],
+  "width_convention": "occupied index1-2*index2 diagonals; index1=q, index2=t",
+  "widths_match_frozen": true
+}

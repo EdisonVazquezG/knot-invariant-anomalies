@@ -1,0 +1,6 @@
+Only centered Theta was refitted; all other view scores remain frozen.
+Inspect Jaccard and phenotype differences; no automatic robustness threshold is imposed.
+The historical standardized comparison changes preprocessing as well as precision.
+This does not test the canonical 220-knot population or its 48-knot subset.
+If the saved package versions differ, the centered comparison also includes an environment change.
+The summary ZIP omits the NPZ checkpoint; retain it in Drive.

@@ -1,0 +1,16 @@
+
+Continuous-norm reconstruction audit:
+     view  continuous_norm_vs_saved_100bin_spearman  lognorm_min  lognorm_median  lognorm_max
+Alexander                                   0.99995     0.000229        1.609553    13.347934
+    Jones                                   0.99995     0.051181        2.114647    12.706023
+HOMFLY-PT                                   0.99995     0.408583        2.821030    14.546087
+    Theta                                   0.99995     0.019865        1.194514    17.085541
+ Khovanov                                   0.99995     2.482580        4.196332    14.745170
+
+Cross-fitted continuous-amplitude residualized sensitivity:
+                      analysis      n  selected_n  observed_mean_raw  observed_mean_crossfit_residual  null_mean_residual  null_sd_residual  null_q025_residual  null_q975_residual  empirical_p_upper  crossfit_rmse    B
+noKh_mean_diag_continuous_norm 313230         220           2.972727                         0.207141           -0.008303          0.017026           -0.042397            0.025159             0.0002       0.202596 5000
+  all5_P_G_gt0_continuous_norm 201702         338           0.769231                         0.038922           -0.005891          0.009960           -0.025991            0.013352             0.0002       0.190600 5000
+   all5_mean_G_continuous_norm 201702         338           1.733728                         0.107618           -0.010597          0.021812           -0.053942            0.032294             0.0002       0.382210 5000
+
+Saved Stage 29c to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/29c_continuous_amplitude_residualized

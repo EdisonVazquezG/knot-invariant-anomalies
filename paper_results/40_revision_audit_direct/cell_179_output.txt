@@ -1,0 +1,28 @@
+
+Legacy consensus-size audit:
+                 analysis  observed_consensus_n  legacy_null_n_mean  legacy_null_n_sd  legacy_null_n_q025  legacy_null_n_q975  observed_n_percentile_in_legacy
+ gap_exact_thickness_all5                   413            228.8665          9.162350               211.0               246.0                              1.0
+noKh_external_kh_norm_100                   220            149.8195          5.618692               139.0               161.0                              1.0
+
+Joint-strata diagnostics:
+                 analysis  joint_norm_bins_per_view  n_strata  cell_min  cell_q25  cell_median  cell_q75  singleton_prop  lt10_prop  selected_total  selected_fixed  selected_movable  random_groups
+ gap_exact_thickness_all5                        20    133602         1       1.0          1.0       2.0        0.550583   0.976220             413             293               120             63
+ gap_exact_thickness_all5                        10     44575         1       1.0          3.0       6.0        0.311004   0.833853             413             182               231             91
+ gap_exact_thickness_all5                         5      9003         1       2.0          7.0      23.0        0.169388   0.579362             413              90               323             84
+ gap_exact_thickness_all5                         2       791         1       6.0         28.0     172.0        0.099874   0.326169             413              44               369             50
+ gap_exact_thickness_all5                         1       136         1       4.0         38.0     529.5        0.132353   0.330882             413              20               393             23
+noKh_external_kh_norm_100                        20    129836         1       1.0          1.0       2.0        0.536431   0.974722             220             132                88             43
+noKh_external_kh_norm_100                        10     39982         1       1.0          3.0       7.0        0.285553   0.808464             220              67               153             67
+noKh_external_kh_norm_100                         5      7242         1       2.0          8.0      29.0        0.153273   0.538249             220              31               189             58
+noKh_external_kh_norm_100                         2       583         1       7.5         34.0     217.0        0.092624   0.283019             220              21               199             29
+noKh_external_kh_norm_100                         1        91         1       4.5         51.0    1120.0        0.164835   0.329670             220              20               200             12
+
+Type-I simulation:
+ outer_reps  inner_permutations  joint_bins_used  legacy_rejection_rate_alpha_0_05  joint_rejection_rate_alpha_0_05  legacy_pass_0_025_to_0_075  joint_pass_0_025_to_0_075
+        200                 399                2                             0.135                            0.035                       False                       True
+
+Decision:
+ max_abs_pairwise_vote_phi  cross_view_dependence_present  legacy_type1_rate  joint_type1_rate  legacy_type1_pass  joint_type1_pass                                                                                                                                  interpretation
+                  0.167221                           True              0.135             0.035              False              True Legacy null shows Type-I miscalibration in this audit. Replace formal endpoint inference with a dependence-preserving/fixed-cardinality design.
+
+Saved Stage 29 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/29_statistical_null_audit

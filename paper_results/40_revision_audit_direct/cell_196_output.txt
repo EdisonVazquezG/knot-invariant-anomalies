@@ -1,0 +1,61 @@
+==============================================================================
+STAGE 36 — Euler-characteristic cancellation endpoint
+==============================================================================
+DATA_DIR   = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants
+OUTPUT_DIR = /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819
+Frozen universe: 313,230 knots
+Loading archived Khovanov table: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/even_KH_upto17.pkl
+Free-part coordinates: 373
+Distinct quantum degrees: 50  (range -47..51)
+Proportion of coordinates with odd q: 1.000000
+Identity check passed (max deviation 0)
+E(K): mean 150.3363, median 118.0, max 714, zero for 0.0003% of knots
+Loading archived Jones table: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/Jones_upto17_MIRRORS.csv
+Jones coordinates: 51 (range -25..25)
+
+Normalization audit (subsample):
+         candidate  mirror  sign  n_audited  exact_match_n  exact_match_prop  max_abs_deviation
+        t_standard   False     1      20000          12382           0.61910              106.0
+         t_inverse    True     1      20000           7705           0.38525              106.0
+t_standard_negated   False    -1      20000              0           0.00000              116.0
+ t_inverse_negated    True    -1      20000              0           0.00000              118.0
+
+Reproduced by at least one orientation convention: 313,230/313,230 (100.000000%)
+  same representative as Jones      : 192,167
+  OPPOSITE representative to Jones  : 119,688 (38.2109%)
+  reproduced by both (V(t)=V(1/t))  : 1,375 (0.4390%)
+
+[!] ENCODING FINDING: the archived Khovanov and Jones tables do not always store the same member of a mirror pair.
+    This does NOT affect W_F or E(K): both are mirror-invariant, since mirroring sends Kh^{i,j} to Kh^{-i,-j},
+    which negates the q-2t diagonal set (preserving its cardinality) and sends a_j, b_j to a_-j, b_-j (preserving sum_j min).
+    It CAN affect per-coordinate standardized Khovanov norms. See khovanov_jones_representative_audit.csv.
+
+Wrote per-knot E(K) for 313,230 knots
+
+Canonical no-Khovanov 3-of-4 selection: 220
+Amplitude columns used (5): ['Alexander_log_sq_norm', 'Jones_log_sq_norm', 'HOMFLY_PT_log_sq_norm', 'Theta_log_sq_norm', 'Khovanov_log_sq_norm']
+  bins/view 20: strata 129847  median cell     1.0  fixed 132  movable  88
+  bins/view 10: strata  39989  median cell     3.0  fixed  67  movable 153
+  bins/view  5: strata   7242  median cell     8.0  fixed  31  movable 189
+  bins/view  2: strata    583  median cell    34.0  fixed  21  movable 199
+  bins/view  1: strata     91  median cell    51.0  fixed  20  movable 200
+
+Resolution trajectory (observed - null):
+metric            mean_E  mean_cancelled_fraction_of_rank  mean_total_free_rank
+bins_per_view                                                                  
+1             -40.765245                         0.007377           -118.015855
+2             -32.841025                         0.011168            -96.387245
+5             -20.649016                         0.011930            -60.982209
+10             -8.734375                         0.002727            -24.993345
+20             -1.594595                        -0.001770             -4.199114
+
+Movable selected knots by resolution:
+               strata_median_cell  strata_selected_fixed  strata_selected_movable
+bins_per_view                                                                    
+20                            1.0                    132                       88
+10                            3.0                     67                      153
+5                             8.0                     31                      189
+2                            34.0                     21                      199
+1                            51.0                     20                      200
+
+Saved Stage 36 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/36_euler_cancellation_endpoint

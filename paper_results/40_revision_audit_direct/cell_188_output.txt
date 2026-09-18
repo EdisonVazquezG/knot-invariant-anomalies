@@ -1,0 +1,72 @@
+Stage 31A gate: PASS
+Theta mirror action used here: coefficient sign flip
+No general theorem is inferred from this empirical gate.
+Frozen canonical no-Khovanov selection: {'selected_n': 220, 'kh_diagonal_mean': 2.9727272727272727, 'kh_diagonal_ge_3_prop': 0.7545454545454545, 'kh_diagonal_ge_4_prop': 0.21818181818181817, 'kh_support_mean': 31.03181818181818}
+
+==============================================================================
+VIEW: Alexander | loading Alexander_upto17.csv
+==============================================================================
+Canonical-tail reproduction Jaccard for Alexander: 0.988575
+
+==============================================================================
+VIEW: Jones | loading Jones_upto17_MIRRORS.csv
+==============================================================================
+Canonical-tail reproduction Jaccard for Jones: 0.988575
+[Jones / global_all_mirrored] fitting mirror-assignment PCA
+[Jones / random_seed_20260830] fitting mirror-assignment PCA
+[Jones / random_seed_20260831] fitting mirror-assignment PCA
+[Jones / random_seed_20260832] fitting mirror-assignment PCA
+[Jones / random_seed_20260833] fitting mirror-assignment PCA
+[Jones / random_seed_20260834] fitting mirror-assignment PCA
+
+==============================================================================
+VIEW: HOMFLY-PT | loading HomflyPt_upto15_MIRRORS.csv
+==============================================================================
+Canonical-tail reproduction Jaccard for HOMFLY-PT: 0.987314
+[HOMFLY-PT / global_all_mirrored] fitting mirror-assignment PCA
+[HOMFLY-PT / random_seed_20260830] fitting mirror-assignment PCA
+[HOMFLY-PT / random_seed_20260831] fitting mirror-assignment PCA
+[HOMFLY-PT / random_seed_20260832] fitting mirror-assignment PCA
+[HOMFLY-PT / random_seed_20260833] fitting mirror-assignment PCA
+[HOMFLY-PT / random_seed_20260834] fitting mirror-assignment PCA
+
+==============================================================================
+VIEW: Theta | loading theta_upto15.csv
+==============================================================================
+Canonical-tail reproduction Jaccard for Theta: 0.995541
+[Theta / global_all_mirrored] fitting mirror-assignment PCA
+[Theta / random_seed_20260830] fitting mirror-assignment PCA
+[Theta / random_seed_20260831] fitting mirror-assignment PCA
+[Theta / random_seed_20260832] fitting mirror-assignment PCA
+[Theta / random_seed_20260833] fitting mirror-assignment PCA
+[Theta / random_seed_20260834] fitting mirror-assignment PCA
+
+==============================================================================
+STAGE 31B COMPLETE
+==============================================================================
+
+Canonical-tail reproduction audit:
+     view  frozen_tail_n  recomputed_tail_n  jaccard  overlap
+Alexander           3133               3133 0.988575     3115
+    Jones           3133               3133 0.988575     3115
+HOMFLY-PT           3133               3133 0.987314     3113
+    Theta           3133               3133 0.995541     3126
+
+Mirror assignment summaries (Khovanov fixed/withheld):
+          assignment  mirror_fraction  selected_n  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_diagonal_ge_4_prop  kh_support_mean  overlap_with_canonical  jaccard_with_canonical  canonical_recovered_prop  delta_mean_diagonal_vs_canonical
+  baseline_canonical         0.000000         220          2.972727               0.754545               0.218182        31.031818                     220                1.000000                  1.000000                          0.000000
+ global_all_mirrored         1.000000         221          2.972851               0.755656               0.217195        30.995475                     218                0.977578                  0.990909                          0.000123
+random_seed_20260830         0.500003         367          3.029973               0.888283               0.141689        29.931880                     178                0.435208                  0.809091                          0.057245
+random_seed_20260831         0.500753         367          3.032698               0.888283               0.144414        29.920981                     181                0.445813                  0.822727                          0.059970
+random_seed_20260832         0.498758         359          3.036212               0.891365               0.144847        29.974930                     179                0.447500                  0.813636                          0.063484
+random_seed_20260833         0.500945         348          3.037356               0.887931               0.149425        30.037356                     177                0.452685                  0.804545                          0.064629
+random_seed_20260834         0.500409         364          3.038462               0.887363               0.151099        29.989011                     184                0.460000                  0.836364                          0.065734
+
+Random-assignment range summary:
+ n_random_assignments  selected_n_min  selected_n_max  jaccard_min  jaccard_max  recovery_min  recovery_max  kh_diagonal_mean_min  kh_diagonal_mean_max  kh_ge3_min  kh_ge3_max  kh_ge4_min  kh_ge4_max
+                    5             348             367     0.435208         0.46      0.804545      0.836364              3.029973              3.038462    0.887363    0.891365    0.141689    0.151099
+
+Interpretation rule: membership may change; ask whether the FIXED stored-Kh population phenotype remains stable.
+No mirror-robustness p-value is claimed by this stage.
+
+Saved Stage 31B to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/31B_corrected_four_view_mirror_withheld_khovanov

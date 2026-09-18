@@ -1,0 +1,77 @@
+env: STAGE27_NULL_REPS=5000
+env: STAGE27_NULL_SEED=20261227
+env: STAGE27_KH_NORM_BINS=100,50,25,20,10,5,4,3,2,1
+Reusing Stage-22 100-bin checkpoint: no_khovanov_external_with_kh_norm_null_5000.parquet
+Loading checkpoint: no_khovanov_kh_norm_50bins_null_5000.parquet
+Loading checkpoint: no_khovanov_kh_norm_25bins_null_5000.parquet
+Loading checkpoint: no_khovanov_kh_norm_20bins_null_5000.parquet
+Loading checkpoint: no_khovanov_kh_norm_10bins_null_5000.parquet
+Loading checkpoint: no_khovanov_kh_norm_5bins_null_5000.parquet
+Khovanov norm bins=4: 500/5,000
+Khovanov norm bins=4: 1,000/5,000
+Khovanov norm bins=4: 1,500/5,000
+Khovanov norm bins=4: 2,000/5,000
+Khovanov norm bins=4: 2,500/5,000
+Khovanov norm bins=4: 3,000/5,000
+Khovanov norm bins=4: 3,500/5,000
+Khovanov norm bins=4: 4,000/5,000
+Khovanov norm bins=4: 4,500/5,000
+Khovanov norm bins=4: 5,000/5,000
+Khovanov norm bins=3: 500/5,000
+Khovanov norm bins=3: 1,000/5,000
+Khovanov norm bins=3: 1,500/5,000
+Khovanov norm bins=3: 2,000/5,000
+Khovanov norm bins=3: 2,500/5,000
+Khovanov norm bins=3: 3,000/5,000
+Khovanov norm bins=3: 3,500/5,000
+Khovanov norm bins=3: 4,000/5,000
+Khovanov norm bins=3: 4,500/5,000
+Khovanov norm bins=3: 5,000/5,000
+Khovanov norm bins=2: 500/5,000
+Khovanov norm bins=2: 1,000/5,000
+Khovanov norm bins=2: 1,500/5,000
+Khovanov norm bins=2: 2,000/5,000
+Khovanov norm bins=2: 2,500/5,000
+Khovanov norm bins=2: 3,000/5,000
+Khovanov norm bins=2: 3,500/5,000
+Khovanov norm bins=2: 4,000/5,000
+Khovanov norm bins=2: 4,500/5,000
+Khovanov norm bins=2: 5,000/5,000
+Loading checkpoint: no_khovanov_kh_norm_1bins_null_5000.parquet
+
+
+<Figure size 1150x420 with 2 Axes>
+
+
+Cell-size diagnostics:
+ khovanov_norm_target_bins  effective_bins  median_cell_size_min  median_cell_size_max  q25_cell_size_min  singleton_prop_max  small_lt_10_prop_max  selected_fixed_max  selected_movable_min  random_groups_min  median_cells_at_least_10_all_views
+                         1               1                  14.0                  22.0                3.0            0.140246              0.448986                 192                  2941                433                                True
+                         2               2                  11.0                  17.0                3.0            0.155819              0.481710                 233                  2900                527                                True
+                         3               3                   9.0                  13.0                2.0            0.166445              0.501613                 236                  2897                587                               False
+                         4               4                   8.0                  12.0                2.0            0.173425              0.528130                 287                  2846                611                               False
+                         5               5                   8.0                  11.0                2.0            0.178798              0.537379                 287                  2846                666                               False
+                        10              10                   6.0                   9.0                2.0            0.196791              0.585394                 391                  2742                718                               False
+                        20              20                   5.0                   6.0                2.0            0.220597              0.660076                 553                  2580                785                               False
+                        25              25                   4.0                   6.0                2.0            0.232229              0.684856                 623                  2510                800                               False
+                        50              50                   3.0                   4.0                1.0            0.277852              0.779244                 932                  2201                840                               False
+                       100             100                   2.0                   3.0                1.0            0.333986              0.892954                1206                  1927                846                               False
+
+Mean-diagonal sensitivity:
+ khovanov_norm_target_bins  observed  null_mean  observed_minus_null_mean  null_sd  standardized_excess  empirical_p  p_holm_grid  median_cell_size_min  singleton_prop_max  selected_fixed_max
+                       100  2.972727   2.853392                  0.119335 0.020943             5.698120       0.0002     0.007998                   2.0            0.333986                1206
+                        50  2.972727   2.812619                  0.160108 0.025114             6.375137       0.0002     0.007998                   3.0            0.277852                 932
+                        25  2.972727   2.738779                  0.233948 0.029718             7.872269       0.0002     0.007998                   4.0            0.232229                 623
+                        20  2.972727   2.705863                  0.266864 0.032448             8.224307       0.0002     0.007998                   5.0            0.220597                 553
+                        10  2.972727   2.690280                  0.282447 0.038462             7.343555       0.0002     0.007998                   6.0            0.196791                 391
+                         5  2.972727   2.635754                  0.336973 0.044783             7.524514       0.0002     0.007998                   8.0            0.178798                 287
+                         4  2.972727   2.598733                  0.373994 0.047454             7.881248       0.0002     0.007998                   8.0            0.173425                 287
+                         3  2.972727   2.565143                  0.407585 0.048531             8.398516       0.0002     0.007998                   9.0            0.166445                 236
+                         2  2.972727   2.516363                  0.456365 0.050424             9.050522       0.0002     0.007998                  11.0            0.155819                 233
+                         1  2.972727   2.465221                  0.507507 0.050044            10.141283       0.0002     0.007998                  14.0            0.140246                 192
+
+Finest tested grid with median cell size >=10 in every view: 2 Khovanov norm bins
+
+Saved Stage 27 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/27_khovanov_norm_bin_null_sensitivity
+
+
+<Figure size 640x480 with 0 Axes>

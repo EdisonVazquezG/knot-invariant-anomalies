@@ -1,0 +1,53 @@
+
+Reading held-out HOMFLY-PT coefficient rows for fiber audit...
+HomflyPt_upto15_MIRRORS.csv: scanned 100,000 rows
+HomflyPt_upto15_MIRRORS.csv: scanned 200,000 rows
+HomflyPt_upto15_MIRRORS.csv: scanned 300,000 rows
+HomflyPt_upto15_MIRRORS.csv: scanned 400,000 rows
+HomflyPt_upto15_MIRRORS.csv: scanned 500,000 rows
+HomflyPt_upto15_MIRRORS.csv: scanned 600,000 rows
+Reading held-out Theta coefficient rows for fiber audit...
+theta_upto15.csv: scanned 100,000 rows
+theta_upto15.csv: scanned 200,000 rows
+theta_upto15.csv: scanned 300,000 rows
+
+==============================================================================
+STAGE 33 COMPLETE
+==============================================================================
+
+Equal-cardinality n=31 ablation:
+                selection  n  kh_diagonal_mean  kh_diagonal_ge_3_prop  kh_diagonal_ge_4_prop  kh_support_mean  alternating_prop  crossing_15_prop  kh_diagonal_mean_ci_low  kh_diagonal_mean_ci_high  kh_diagonal_ge_3_prop_ci_low  kh_diagonal_ge_3_prop_ci_high  kh_diagonal_ge_4_prop_ci_low  kh_diagonal_ge_4_prop_ci_high  kh_support_mean_ci_low  kh_support_mean_ci_high
+          HOMFLY_PT_alone 31          2.096774               0.096774               0.000000        28.806452          0.645161          1.000000                 2.000000                  2.193548                      0.000000                       0.193548                      0.000000                       0.000000               27.966935                29.645161
+              Theta_alone 31          2.806452               0.741935               0.064516        30.032258          0.000000          1.000000                 2.612903                  3.000000                      0.580645                       0.903226                      0.000000                       0.161290               28.483871                31.709677
+HOMFLY_PT_plus_Theta_2of2 31          2.774194               0.677419               0.096774        30.580645          0.290323          0.935484                 2.580645                  3.000000                      0.516129                       0.838710                      0.000000                       0.225806               29.387097                31.709677
+           four_view_3of4 31          3.161290               0.870968               0.290323        31.129032          0.096774          0.903226                 2.935484                  3.387097                      0.741935                       0.967742                      0.129032                       0.451613               29.837903                32.419355
+
+Pairwise Jaccard:
+              selection_a               selection_b  overlap  union  jaccard
+          HOMFLY_PT_alone               Theta_alone        0     62 0.000000
+          HOMFLY_PT_alone HOMFLY_PT_plus_Theta_2of2        1     61 0.016393
+          HOMFLY_PT_alone            four_view_3of4        1     61 0.016393
+              Theta_alone HOMFLY_PT_plus_Theta_2of2        4     58 0.068966
+              Theta_alone            four_view_3of4        6     56 0.107143
+HOMFLY_PT_plus_Theta_2of2            four_view_3of4        7     55 0.127273
+
+Exact fiber summary:
+        fiber_family  n_nontrivial_fibers  n_knots_in_nontrivial_fibers  max_fiber_size  split_fibers__HOMFLY_PT_alone  split_fibers__Theta_alone  split_fibers__HOMFLY_PT_plus_Theta_2of2  split_fibers__four_view_3of4
+           HOMFLY_PT                 2638                          5547               6                              0                          1                                        0                             0
+HOMFLY_PT_plus_Theta                  159                           321               3                              0                          0                                        0                             0
+
+Checked same-HOMFLY / different-Theta+Kh example pairs saved: 68
+   knot_a    knot_b  same_HOMFLY_PT_exact  theta_differs  kh_diagonal_a  kh_diagonal_b  kh_diagonal_abs_difference  four_view_selected_a  four_view_selected_b  pair_selected_a  pair_selected_b
+  12a0401 15n000211                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+15n151004 15n068303                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+ 14n15507  14n15911                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+   12n777   13n2288                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+ 14n18415 15n054287                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+15n101713 15n007850                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+  13n0579 15n084429                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+15n166481 15n077936                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+ 14n18803 15n006671                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+  13n0759 15n073293                  True           True            2.0            3.0                         1.0                 False                 False            False            False
+
+Interpret all score ordering descriptively unless a direct between-score test is added.
+Saved Stage 33 to: /content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/33_view_ablation_and_fibers

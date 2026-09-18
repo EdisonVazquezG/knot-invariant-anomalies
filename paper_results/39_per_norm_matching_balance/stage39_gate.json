@@ -1,0 +1,26 @@
+{
+  "stage": 39,
+  "source_pairs": "/content/drive/MyDrive/Colab Notebooks/data_invariants/Invariants/processed_consensus_hardness/corrected_run_20260819/25_score_matched_geometry/score_geometry_pairs.csv",
+  "matched_on": [
+    "mean_log_sq_norm",
+    "max_log_sq_norm"
+  ],
+  "reported_only": [
+    "Alexander_log_sq_norm",
+    "Jones_log_sq_norm",
+    "HOMFLY_PT_log_sq_norm",
+    "Theta_log_sq_norm",
+    "Khovanov_log_sq_norm"
+  ],
+  "matching_unchanged": true,
+  "balance_metric": "conventional SMD (matches the Supplementary Information)",
+  "max_abs_conventional_smd_matched_columns": 0.08036777870788242,
+  "max_abs_conventional_smd_individual_norms": 0.5619773854652339,
+  "max_abs_paired_smd_matched_columns": 0.4663064344338045,
+  "max_abs_paired_smd_individual_norms": 0.9424000771501875,
+  "worst_individual": {
+    "method": "Conditional percentile",
+    "norm": "HOMFLY_PT_log_sq_norm",
+    "conventional_smd": 0.5619773854652339
+  }
+}
