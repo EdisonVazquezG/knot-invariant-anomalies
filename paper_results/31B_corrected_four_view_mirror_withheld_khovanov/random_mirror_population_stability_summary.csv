@@ -1,0 +1,2 @@
+n_random_assignments,selected_n_min,selected_n_max,jaccard_min,jaccard_max,recovery_min,recovery_max,kh_diagonal_mean_min,kh_diagonal_mean_max,kh_ge3_min,kh_ge3_max,kh_ge4_min,kh_ge4_max
+5,348,367,0.4352078239608802,0.46,0.8045454545454546,0.8363636363636363,3.0299727520435966,3.0384615384615383,0.8873626373626373,0.8913649025069638,0.14168937329700274,0.1510989010989011

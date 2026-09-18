@@ -1,0 +1,7 @@
+{
+  "established_inequality_to_cite": "w_Kh(K) - 2 <= g_T(K) <= d_alt(K)",
+  "operational_quantity": "number of occupied q-2t diagonals in stored F_ coordinates",
+  "required_encoding_fact": "the stored F_ coordinates represent free/rational Khovanov ranks in the stated grading, so the operational occupied-diagonal count is no larger than full homological width",
+  "consequence_after_encoding_fact_is_verified": "W_Kh >= 4 implies g_T >= 2 and d_alt >= 2; therefore the knot is not almost alternating",
+  "not_claimed": "This threshold does not by itself prove enrichment in actual Turaev genus or dealternating number, because knots below the threshold can also have g_T >= 2."
+}

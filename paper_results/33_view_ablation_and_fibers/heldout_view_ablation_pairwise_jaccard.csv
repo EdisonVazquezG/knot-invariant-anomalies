@@ -1,0 +1,7 @@
+selection_a,selection_b,overlap,union,jaccard
+HOMFLY_PT_alone,Theta_alone,0,62,0.0
+HOMFLY_PT_alone,HOMFLY_PT_plus_Theta_2of2,1,61,0.01639344262295082
+HOMFLY_PT_alone,four_view_3of4,1,61,0.01639344262295082
+Theta_alone,HOMFLY_PT_plus_Theta_2of2,4,58,0.06896551724137931
+Theta_alone,four_view_3of4,6,56,0.10714285714285714
+HOMFLY_PT_plus_Theta_2of2,four_view_3of4,7,55,0.12727272727272726

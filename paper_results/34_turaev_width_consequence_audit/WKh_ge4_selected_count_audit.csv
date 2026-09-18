@@ -1,0 +1,4 @@
+selection,selected_n,mean_stored_F_diagonal_count,n_WKh_ge_4,prop_WKh_ge_4,expected_n_WKh_ge_4_from_revision_letter,count_matches_expected
+canonical_noKh_n220,220,2.9727272727272727,48,0.21818181818181817,48,True
+heldout_conditional_n31,31,3.161290322580645,9,0.2903225806451613,9,True
+heldout_relative_n31,31,3.129032258064516,5,0.16129032258064516,5,True

@@ -1,0 +1,3 @@
+fiber_family,n_nontrivial_fibers,n_knots_in_nontrivial_fibers,max_fiber_size,split_fibers__HOMFLY_PT_alone,split_fibers__Theta_alone,split_fibers__HOMFLY_PT_plus_Theta_2of2,split_fibers__four_view_3of4
+HOMFLY_PT,2638,5547,6,0,1,0,0
+HOMFLY_PT_plus_Theta,159,321,3,0,0,0,0

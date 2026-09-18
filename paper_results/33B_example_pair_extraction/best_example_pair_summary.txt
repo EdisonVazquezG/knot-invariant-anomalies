@@ -1,0 +1,16 @@
+Best checked example pair
+=========================
+Knot A: 13n0759
+Knot B: 15n073293
+
+Exact HOMFLY-PT equality: True
+Stored Khovanov diagonal counts: 2.0 vs 3.0
+Stored Khovanov support sizes: 22.0 vs 28.0
+Theta percentiles: 0.959657 vs 0.035256
+Four-view aggregate: 0.226477 vs 0.220581
+Four-view selected: False vs False
+Four-view splits pair: False
+
+Selection of this example is descriptive.  Its purpose is to show concretely
+that an exact HOMFLY-PT fiber can contain knots separated by Theta and by the
+stored Khovanov endpoint.

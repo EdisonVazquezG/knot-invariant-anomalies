@@ -1,0 +1,2 @@
+knot_a,knot_b,kh_diagonal_a,kh_diagonal_b,kh_support_a,kh_support_b,Alexander_percentile_a,Alexander_percentile_b,Jones_percentile_a,Jones_percentile_b,HOMFLY_PT_percentile_a,HOMFLY_PT_percentile_b,Theta_percentile_a,Theta_percentile_b,four_view_aggregate_a,four_view_aggregate_b,four_view_selected_a,four_view_selected_b
+13n0759,15n073293,2.0,3.0,22.0,28.0,0.22058103650101096,0.22058103650101096,0.45458124933489413,0.45458124933489413,0.22647653506438226,0.22647653506438226,0.9596573374481218,0.03525593274449292,0.22647653506438226,0.22058103650101096,False,False

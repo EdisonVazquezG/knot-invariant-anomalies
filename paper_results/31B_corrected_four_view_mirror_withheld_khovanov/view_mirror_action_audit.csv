@@ -1,0 +1,5 @@
+view,input_dim,n_frozen_knots,distinct_archived_opposite_missing,mirror_action
+Alexander,17,313230,0,unchanged
+Jones,51,313230,0,archived_opposite_row
+HOMFLY-PT,152,313230,0,archived_opposite_row
+Theta,841,313230,0,coefficient_sign_flip_stage31A_gate
