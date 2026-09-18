@@ -1,0 +1,25 @@
+method,family,dim_a,dim_b,n_a,n_b,n_shared,jaccard
+residual_isolation_forest,All 5 >=3/5,32,64,211,230,163,0.5863309352517986
+residual_isolation_forest,All 5 >=3/5,32,128,211,205,140,0.5072463768115942
+residual_isolation_forest,All 5 >=3/5,32,none,211,200,139,0.5110294117647058
+residual_isolation_forest,All 5 >=3/5,64,128,230,205,179,0.69921875
+residual_isolation_forest,All 5 >=3/5,64,none,230,200,169,0.6475095785440613
+residual_isolation_forest,All 5 >=3/5,128,none,205,200,167,0.7016806722689075
+residual_isolation_forest,No Khovanov >=3/4,32,64,129,120,87,0.5370370370370371
+residual_isolation_forest,No Khovanov >=3/4,32,128,129,107,76,0.475
+residual_isolation_forest,No Khovanov >=3/4,32,none,129,103,75,0.47770700636942676
+residual_isolation_forest,No Khovanov >=3/4,64,128,120,107,94,0.706766917293233
+residual_isolation_forest,No Khovanov >=3/4,64,none,120,103,93,0.7153846153846154
+residual_isolation_forest,No Khovanov >=3/4,128,none,107,103,91,0.7647058823529411
+residual_mahalanobis,All 5 >=3/5,32,64,317,334,308,0.8979591836734694
+residual_mahalanobis,All 5 >=3/5,32,128,317,330,300,0.8645533141210374
+residual_mahalanobis,All 5 >=3/5,32,none,317,328,298,0.8587896253602305
+residual_mahalanobis,All 5 >=3/5,64,128,334,330,319,0.9246376811594202
+residual_mahalanobis,All 5 >=3/5,64,none,334,328,318,0.9244186046511628
+residual_mahalanobis,All 5 >=3/5,128,none,330,328,327,0.9879154078549849
+residual_mahalanobis,No Khovanov >=3/4,32,64,269,275,268,0.9710144927536232
+residual_mahalanobis,No Khovanov >=3/4,32,128,269,275,268,0.9710144927536232
+residual_mahalanobis,No Khovanov >=3/4,32,none,269,275,268,0.9710144927536232
+residual_mahalanobis,No Khovanov >=3/4,64,128,275,275,275,1.0
+residual_mahalanobis,No Khovanov >=3/4,64,none,275,275,275,1.0
+residual_mahalanobis,No Khovanov >=3/4,128,none,275,275,275,1.0
